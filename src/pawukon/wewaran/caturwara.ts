@@ -1,4 +1,4 @@
-import { getDaysSinceAnchorDate } from "../../utilities/date";
+import { getDaysSincePawukonAnchorDate } from "../../utilities/date";
 import type { PawukonItemDetails } from "../types";
 
 const CATURWARA_MODULO = 4;
@@ -11,7 +11,7 @@ export const CATURWARA: readonly PawukonItemDetails[] = [
 ] as const;
 
 export const getCaturwara = (date: Date | string | number) => {
-    let daysSinceAnchorDate = getDaysSinceAnchorDate(date);
+    let daysSinceAnchorDate = getDaysSincePawukonAnchorDate(date);
 
     if (daysSinceAnchorDate >= 72)
         daysSinceAnchorDate += 2;

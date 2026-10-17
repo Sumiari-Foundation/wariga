@@ -1,5 +1,5 @@
-import { getDaysSinceAnchorDate } from "../../utilities/date";
-import type { PawukonItemDetails } from "../types";
+import { getDaysSincePawukonAnchorDate } from "../../utilities/date";
+import type { PawukonItemDetails } from "../types"; 
 
 const ASTAWARA_MODULO = 8;
 
@@ -15,7 +15,7 @@ export const ASTAWARA: readonly PawukonItemDetails[] = [
 ] as const;
 
 export const getAstawara = (date: Date | string | number) => {
-  let daysSinceAnchorDate = getDaysSinceAnchorDate(date);
+  let daysSinceAnchorDate = getDaysSincePawukonAnchorDate(date);
 
   if (daysSinceAnchorDate >= 72)
       daysSinceAnchorDate += 6;

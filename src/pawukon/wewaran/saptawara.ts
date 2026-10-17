@@ -1,4 +1,4 @@
-import { getDaysSinceAnchorDate } from "../../utilities/date";
+import { getDaysSincePawukonAnchorDate } from "../../utilities/date";
 import type { PawukonItemDetails } from "../types";
 
 const SAPTAWARA_MODULO = 7;
@@ -14,7 +14,7 @@ export const SAPTAWARA: readonly PawukonItemDetails[] = [
 ] as const;
 
 export const getSaptawara = (date: Date | string | number) => {
-    const daysSinceAnchorDate = getDaysSinceAnchorDate(date);
+    const daysSinceAnchorDate = getDaysSincePawukonAnchorDate(date);
     
     const saptawaraIndex = daysSinceAnchorDate % SAPTAWARA_MODULO;
     const saptawara = SAPTAWARA[saptawaraIndex];

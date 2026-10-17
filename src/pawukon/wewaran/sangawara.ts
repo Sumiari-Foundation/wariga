@@ -1,4 +1,4 @@
-import { getDaysSinceAnchorDate } from "../../utilities/date";
+import { getDaysSincePawukonAnchorDate } from "../../utilities/date";
 import type { PawukonItemDetails } from "../types";
 
 const SANGAWARA_MODULO = 9;
@@ -16,7 +16,7 @@ export const SANGAWARA: readonly PawukonItemDetails[] = [
 ] as const;
 
 export const getSangawara = (date: Date | string | number) => {
-    const daysSinceAnchorDate = getDaysSinceAnchorDate(date);
+    const daysSinceAnchorDate = getDaysSincePawukonAnchorDate(date);
     let sangawaraIndex = 0;
 
     if (daysSinceAnchorDate <= 3 ){

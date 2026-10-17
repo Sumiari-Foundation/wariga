@@ -1,4 +1,4 @@
-import { getDaysSinceAnchorDate } from "../utilities/date";
+import { getDaysSincePawukonAnchorDate } from "../utilities/date";
 import type { PawukonItemDetails } from "./types";
 
 const WUKU_MODULO = 30;
@@ -37,7 +37,7 @@ export const WUKU: readonly PawukonItemDetails[] = [
 ] as const;
 
 export const getWuku = (date: Date | string | number) => {
-    const daysSinceAnchorDate = getDaysSinceAnchorDate(date);
+    const daysSinceAnchorDate = getDaysSincePawukonAnchorDate(date);
     const wukuIndex = Math.floor(daysSinceAnchorDate / 7) % WUKU_MODULO;
     const wuku = WUKU[wukuIndex];
 

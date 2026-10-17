@@ -4,4 +4,4 @@
  * 
  * The anchor date is saptawara Redite, pancawara Paing, wuku Sinta.
  */
-export const ANCHOR_DATE = new Date("2025-02-09");
+export const PAWUKON_ANCHOR_DATE = new Date("2025-02-09");

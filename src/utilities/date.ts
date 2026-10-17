@@ -1,8 +1,11 @@
-import { ANCHOR_DATE } from "../consts/anchor-date";
+import { KASA_NEW_MOON_ANCHOR_DATE } from "../consts/kasa-anchor-date";
+import { PAWUKON_ANCHOR_DATE } from "../consts/pawukon-anchor-date";
 import { MS_PER_DAY } from "../consts/time";
 import { DAYS_IN_YEAR_CYCLE } from "../consts/year-cycle";
 
-export const getValidDate = (date: Date | string | number) => {
+export type Dateable = Date | string | number;
+
+export const getValidDate = (date: Dateable) => {
     const dateObj = new Date(date);
 
     if (Number.isNaN(dateObj.getTime()))
@@ -11,14 +14,22 @@ export const getValidDate = (date: Date | string | number) => {
     return dateObj;
 }
 
-export const getDaysSinceAnchorDate = (date: Date | string | number) => {
+const getDaysSinceAnchorDate = (date: Dateable, anchorDate: Date) => {
     const dateObj = getValidDate(date);
 
-    const deltaTime = dateObj.getTime() - ANCHOR_DATE.getTime();
+    const deltaTime = dateObj.getTime() - anchorDate.getTime();
     const days = Math.floor(deltaTime / MS_PER_DAY);
 
     const validDays = days % DAYS_IN_YEAR_CYCLE;
     const effectiveDays = validDays < 0 ? DAYS_IN_YEAR_CYCLE + validDays : validDays;
 
     return Math.abs(effectiveDays);
+}
+
+export const getDaysSincePawukonAnchorDate = (date: Dateable) => {
+    return getDaysSinceAnchorDate(date, PAWUKON_ANCHOR_DATE);
+}
+
+export const getDaysSinceKasaAnchorDate = (date: Dateable) => {
+    return getDaysSinceAnchorDate(date, KASA_NEW_MOON_ANCHOR_DATE);
 }
