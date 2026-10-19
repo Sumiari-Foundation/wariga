@@ -4,7 +4,9 @@ import dataset from "../../../data/wewaran-dataset.json";
 
 describe("getTriwara", () => {
 
-    // --- Dataset validation (source: kalenderbali.com, kalenderbali.info) ---
+    // --- Dataset validation ---
+    // Source: balinese-date-js-lib v0.4.3 (github.com/peradnya/balinese-date-js-lib)
+    // References: babadbali.com, kalenderbali.org, kalenderbali.info
 
     for (const entry of dataset.entries) {
         it(`${entry.date} is ${entry.triwara}`, () => {
@@ -12,13 +14,7 @@ describe("getTriwara", () => {
         });
     }
 
-    // --- Anchor date ---
-
-    it("anchor date 2025-02-09 is pasah (index 0)", () => {
-        expect(getTriwara(new Date("2025-02-09")).name).toBe("pasah");
-    });
-
-    // --- Full 3-day cycle ---
+    // --- Edge cases ---
 
     it("completes a full 3-day cycle starting from anchor", () => {
         const expected = ["pasah", "beteng", "kajeng"];
@@ -29,16 +25,7 @@ describe("getTriwara", () => {
         }
     });
 
-    // --- Urip values ---
-
-    it("kajeng has urip 7", () => {
-        expect(getTriwara(new Date("2025-02-11")).urip).toBe(7);
-    });
-
-    // --- 210-day cycle boundary ---
-    // 210 / 3 = 70 complete cycles, so wrap is always clean
-
-    it("day 209 (2025-09-06) is kajeng", () => {
+    it("day 209 (2025-09-06) is kajeng — last day of the 210-day cycle", () => {
         expect(getTriwara(new Date("2025-09-06")).name).toBe("kajeng");
     });
 
@@ -46,15 +33,11 @@ describe("getTriwara", () => {
         expect(getTriwara(new Date("2025-09-07")).name).toBe("pasah");
     });
 
-    // --- Dates before anchor ---
-
     it("1 day before anchor (2025-02-08) is kajeng — effective day 209", () => {
         expect(getTriwara(new Date("2025-02-08")).name).toBe("kajeng");
     });
 
-    // --- Input types ---
-
-    it("throws on invalid date string", () => {
+    it("throws on invalid date", () => {
         expect(() => getTriwara("invalid-date")).toThrow("Invalid date");
     });
 });

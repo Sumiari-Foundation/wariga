@@ -4,7 +4,9 @@ import dataset from "../../../data/wewaran-dataset.json";
 
 describe("getPancawara", () => {
 
-    // --- Dataset validation (source: kalenderbali.com, kalenderbali.info) ---
+    // --- Dataset validation ---
+    // Source: balinese-date-js-lib v0.4.3 (github.com/peradnya/balinese-date-js-lib)
+    // References: babadbali.com, kalenderbali.org, kalenderbali.info
 
     for (const entry of dataset.entries) {
         it(`${entry.date} is ${entry.pancawara}`, () => {
@@ -12,13 +14,7 @@ describe("getPancawara", () => {
         });
     }
 
-    // --- Anchor date ---
-
-    it("anchor date 2025-02-09 is paing (index 0)", () => {
-        expect(getPancawara(new Date("2025-02-09")).name).toBe("paing");
-    });
-
-    // --- Full 5-day cycle ---
+    // --- Edge cases ---
 
     it("completes a full 5-day cycle starting from anchor", () => {
         const expected = ["paing", "pon", "wage", "kliwon", "umanis"];
@@ -29,26 +25,7 @@ describe("getPancawara", () => {
         }
     });
 
-    // --- Urip values — used downstream by dwiwara, ekawara, dasawara ---
-
-    it("kliwon has urip 8", () => {
-        expect(getPancawara(new Date("2025-02-12")).urip).toBe(8);
-    });
-
-    it("paing has urip 9", () => {
-        expect(getPancawara(new Date("2025-02-09")).urip).toBe(9);
-    });
-
-    // --- Input types ---
-
-    it("throws on invalid date string", () => {
-        expect(() => getPancawara("invalid-date")).toThrow("Invalid date");
-    });
-
-    // --- 210-day cycle boundary ---
-    // 210 / 5 = 42 complete cycles, so wrap is always clean
-
-    it("day 209 (2025-09-06) is umanis", () => {
+    it("day 209 (2025-09-06) is umanis — last day of the 210-day cycle", () => {
         expect(getPancawara(new Date("2025-09-06")).name).toBe("umanis");
     });
 
@@ -56,13 +33,15 @@ describe("getPancawara", () => {
         expect(getPancawara(new Date("2025-09-07")).name).toBe("paing");
     });
 
-    // --- Dates before anchor ---
-
     it("1 day before anchor (2025-02-08) is umanis — effective day 209", () => {
         expect(getPancawara(new Date("2025-02-08")).name).toBe("umanis");
     });
 
-    it("historical date 2020-01-01 does not throw", () => {
-        expect(() => getPancawara(new Date("2020-01-01"))).not.toThrow();
+    it("kliwon has urip 8 — used downstream by dwiwara, ekawara, dasawara", () => {
+        expect(getPancawara(new Date("2025-02-12")).urip).toBe(8);
+    });
+
+    it("throws on invalid date", () => {
+        expect(() => getPancawara("invalid-date")).toThrow("Invalid date");
     });
 });

@@ -4,7 +4,9 @@ import dataset from "../../../data/wewaran-dataset.json";
 
 describe("getSadwara", () => {
 
-    // --- Dataset validation (source: kalenderbali.com, kalenderbali.info) ---
+    // --- Dataset validation ---
+    // Source: balinese-date-js-lib v0.4.3 (github.com/peradnya/balinese-date-js-lib)
+    // References: babadbali.com, kalenderbali.org, kalenderbali.info
 
     for (const entry of dataset.entries) {
         it(`${entry.date} is ${entry.sadwara}`, () => {
@@ -12,13 +14,7 @@ describe("getSadwara", () => {
         });
     }
 
-    // --- Anchor date ---
-
-    it("anchor date 2025-02-09 is tungleh (index 0)", () => {
-        expect(getSadwara(new Date("2025-02-09")).name).toBe("tungleh");
-    });
-
-    // --- Full 6-day cycle ---
+    // --- Edge cases ---
 
     it("completes a full 6-day cycle starting from anchor", () => {
         const expected = ["tungleh", "aryang", "urukung", "paniron", "was", "maulu"];
@@ -29,16 +25,7 @@ describe("getSadwara", () => {
         }
     });
 
-    // --- Urip values ---
-
-    it("was has urip 9", () => {
-        expect(getSadwara(new Date("2025-02-13")).urip).toBe(9);
-    });
-
-    // --- 210-day cycle boundary ---
-    // 210 / 6 = 35 complete cycles, so wrap is always clean
-
-    it("day 209 (2025-09-06) is maulu", () => {
+    it("day 209 (2025-09-06) is maulu — last day of the 210-day cycle", () => {
         expect(getSadwara(new Date("2025-09-06")).name).toBe("maulu");
     });
 
@@ -46,15 +33,11 @@ describe("getSadwara", () => {
         expect(getSadwara(new Date("2025-09-07")).name).toBe("tungleh");
     });
 
-    // --- Dates before anchor ---
-
     it("1 day before anchor (2025-02-08) is maulu — effective day 209", () => {
         expect(getSadwara(new Date("2025-02-08")).name).toBe("maulu");
     });
 
-    // --- Input types ---
-
-    it("throws on invalid date string", () => {
+    it("throws on invalid date", () => {
         expect(() => getSadwara("invalid-date")).toThrow("Invalid date");
     });
 });

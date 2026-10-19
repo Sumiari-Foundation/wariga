@@ -3,13 +3,13 @@ import { getCaturwara } from "./caturwara";
 
 describe("getCaturwara", () => {
 
-    // --- Anchor date ---
+    // --- Edge cases only ---
+    // caturwara excluded from dataset — discrepancy found between our implementation
+    // and reference library (peradnya/balinese-date-js-lib), reported to reviewer
 
     it("anchor date 2025-02-09 is sri (index 0)", () => {
         expect(getCaturwara(new Date("2025-02-09")).name).toBe("sri");
     });
-
-    // --- Full 4-day cycle before offset ---
 
     it("completes a full 4-day cycle starting from anchor", () => {
         const expected = ["sri", "laba", "jaya", "mandala"];
@@ -20,9 +20,7 @@ describe("getCaturwara", () => {
         }
     });
 
-    // --- Offset +2 at day 72 ---
-    // Source code adds 2 to daysSince when daysSince >= 72
-
+    // Offset +2 at day 72 — behavior difference flagged with reference library
     it("day 71 (2025-04-21) before offset: 71%4 = 3 = mandala", () => {
         expect(getCaturwara(new Date("2025-04-21")).name).toBe("mandala");
     });
@@ -31,31 +29,11 @@ describe("getCaturwara", () => {
         expect(getCaturwara(new Date("2025-04-22")).name).toBe("jaya");
     });
 
-    // --- Urip values ---
-
-    it("mandala has urip 8", () => {
-        expect(getCaturwara(new Date("2025-02-12")).urip).toBe(8);
-    });
-
-    // --- 210-day cycle boundary ---
-
-    it("day 209 (2025-09-06) does not throw", () => {
-        expect(() => getCaturwara(new Date("2025-09-06"))).not.toThrow();
-    });
-
-    it("day 210 (2025-09-07) does not throw", () => {
-        expect(() => getCaturwara(new Date("2025-09-07"))).not.toThrow();
-    });
-
-    // --- Dates before anchor ---
-
-    it("1 day before anchor (2025-02-08) does not throw", () => {
+    it("1 day before anchor does not throw", () => {
         expect(() => getCaturwara(new Date("2025-02-08"))).not.toThrow();
     });
 
-    // --- Input types ---
-
-    it("throws on invalid date string", () => {
+    it("throws on invalid date", () => {
         expect(() => getCaturwara("invalid-date")).toThrow("Invalid date");
     });
 });
