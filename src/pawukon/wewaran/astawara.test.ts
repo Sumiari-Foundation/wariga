@@ -2,38 +2,60 @@ import { describe, it, expect } from "bun:test";
 import { getAstawara } from "./astawara";
 
 describe("getAstawara", () => {
-    // Anchor date = hari 0 = sri (index 0)
-    it("anchor date 2025-02-09 adalah sri", () => {
+
+    // --- Anchor date ---
+
+    it("anchor date 2025-02-09 is sri (index 0)", () => {
         expect(getAstawara(new Date("2025-02-09")).name).toBe("sri");
     });
 
-    it("hari ke-1 (2025-02-10) adalah indra", () => {
-        expect(getAstawara(new Date("2025-02-10")).name).toBe("indra");
+    // --- Full 8-day cycle before offset ---
+
+    it("completes a full 8-day cycle starting from anchor", () => {
+        const expected = ["sri", "indra", "guru", "yama", "ludra", "brahma", "kala", "uma"];
+        for (let i = 0; i < 8; i++) {
+            const date = new Date("2025-02-09");
+            date.setDate(date.getDate() + i);
+            expect(getAstawara(date).name).toBe(expected[i]);
+        }
     });
 
-    it("hari ke-7 (2025-02-16) adalah uma (index 7, siklus 0-7)", () => {
-        expect(getAstawara(new Date("2025-02-16")).name).toBe("uma");
-    });
+    // --- Offset +6 at day 72 ---
+    // Source code adds 6 to daysSince when daysSince >= 72
 
-    it("hari ke-8 kembali ke sri (satu putaran penuh sebelum offset)", () => {
-        expect(getAstawara(new Date("2025-02-17")).name).toBe("sri");
-    });
-
-    // Offset +6 berlaku mulai hari ke-72 dari anchor date
-    // Hari ke-72 = 2025-02-09 + 72 hari = 2025-04-22
-    it("hari ke-72 (2025-04-22) mendapat offset +6: (72+6)%8 = 6 = kala", () => {
-        expect(getAstawara(new Date("2025-04-22")).name).toBe("kala");
-    });
-
-    it("hari ke-71 (sebelum offset, 2025-04-21): 71%8 = 7 = uma", () => {
+    it("day 71 (2025-04-21) before offset: 71%8 = 7 = uma", () => {
         expect(getAstawara(new Date("2025-04-21")).name).toBe("uma");
     });
 
-    it("mengembalikan urip yang benar untuk uma (4)", () => {
+    it("day 72 (2025-04-22) with offset: (72+6)%8 = 6 = kala", () => {
+        expect(getAstawara(new Date("2025-04-22")).name).toBe("kala");
+    });
+
+    // --- Urip values ---
+
+    it("uma has urip 4", () => {
         expect(getAstawara(new Date("2025-02-16")).urip).toBe(4);
     });
 
-    it("melempar error untuk tanggal tidak valid", () => {
+    // --- 210-day cycle boundary ---
+
+    it("day 209 (2025-09-06) does not throw", () => {
+        expect(() => getAstawara(new Date("2025-09-06"))).not.toThrow();
+    });
+
+    it("day 210 (2025-09-07) does not throw", () => {
+        expect(() => getAstawara(new Date("2025-09-07"))).not.toThrow();
+    });
+
+    // --- Dates before anchor ---
+
+    it("1 day before anchor (2025-02-08) does not throw", () => {
+        expect(() => getAstawara(new Date("2025-02-08"))).not.toThrow();
+    });
+
+    // --- Input types ---
+
+    it("throws on invalid date string", () => {
         expect(() => getAstawara("invalid-date")).toThrow("Invalid date");
     });
 });

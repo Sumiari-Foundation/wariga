@@ -1,37 +1,68 @@
 import { describe, it, expect } from "bun:test";
 import { getPancawara } from "./pancawara";
+import dataset from "../../../data/wewaran-dataset.json";
 
 describe("getPancawara", () => {
-    // Anchor date = hari 0 = paing (index 0)
-    it("anchor date 2025-02-09 adalah paing", () => {
+
+    // --- Dataset validation (source: kalenderbali.com, kalenderbali.info) ---
+
+    for (const entry of dataset.entries) {
+        it(`${entry.date} is ${entry.pancawara}`, () => {
+            expect(getPancawara(new Date(entry.date)).name).toBe(entry.pancawara);
+        });
+    }
+
+    // --- Anchor date ---
+
+    it("anchor date 2025-02-09 is paing (index 0)", () => {
         expect(getPancawara(new Date("2025-02-09")).name).toBe("paing");
     });
 
-    it("hari ke-1 (2025-02-10) adalah pon", () => {
-        expect(getPancawara(new Date("2025-02-10")).name).toBe("pon");
+    // --- Full 5-day cycle ---
+
+    it("completes a full 5-day cycle starting from anchor", () => {
+        const expected = ["paing", "pon", "wage", "kliwon", "umanis"];
+        for (let i = 0; i < 5; i++) {
+            const date = new Date("2025-02-09");
+            date.setDate(date.getDate() + i);
+            expect(getPancawara(date).name).toBe(expected[i]);
+        }
     });
 
-    it("hari ke-2 (2025-02-11) adalah wage", () => {
-        expect(getPancawara(new Date("2025-02-11")).name).toBe("wage");
-    });
+    // --- Urip values — used downstream by dwiwara, ekawara, dasawara ---
 
-    it("hari ke-3 (2025-02-12) adalah kliwon", () => {
-        expect(getPancawara(new Date("2025-02-12")).name).toBe("kliwon");
-    });
-
-    it("hari ke-4 (2025-02-13) adalah umanis", () => {
-        expect(getPancawara(new Date("2025-02-13")).name).toBe("umanis");
-    });
-
-    it("hari ke-5 kembali ke paing (satu putaran penuh)", () => {
-        expect(getPancawara(new Date("2025-02-14")).name).toBe("paing");
-    });
-
-    it("mengembalikan urip yang benar untuk kliwon (8)", () => {
+    it("kliwon has urip 8", () => {
         expect(getPancawara(new Date("2025-02-12")).urip).toBe(8);
     });
 
-    it("melempar error untuk tanggal tidak valid", () => {
+    it("paing has urip 9", () => {
+        expect(getPancawara(new Date("2025-02-09")).urip).toBe(9);
+    });
+
+    // --- Input types ---
+
+    it("throws on invalid date string", () => {
         expect(() => getPancawara("invalid-date")).toThrow("Invalid date");
+    });
+
+    // --- 210-day cycle boundary ---
+    // 210 / 5 = 42 complete cycles, so wrap is always clean
+
+    it("day 209 (2025-09-06) is umanis", () => {
+        expect(getPancawara(new Date("2025-09-06")).name).toBe("umanis");
+    });
+
+    it("day 210 (2025-09-07) wraps back to paing", () => {
+        expect(getPancawara(new Date("2025-09-07")).name).toBe("paing");
+    });
+
+    // --- Dates before anchor ---
+
+    it("1 day before anchor (2025-02-08) is umanis — effective day 209", () => {
+        expect(getPancawara(new Date("2025-02-08")).name).toBe("umanis");
+    });
+
+    it("historical date 2020-01-01 does not throw", () => {
+        expect(() => getPancawara(new Date("2020-01-01"))).not.toThrow();
     });
 });
