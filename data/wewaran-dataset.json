@@ -1,0 +1,257 @@
+{
+  "sources": [
+    "https://kalenderbali.com",
+    "https://www.kalenderbali.info"
+  ],
+  "note": "Verified against kalenderbali.com (I Wayan Nuarsa, Universitas Udayana) and kalenderbali.info. Dates are in UTC (YYYY-MM-DD). Each entry was cross-checked against the reference calendars.",
+  "entries": [
+    {
+      "date": "2026-10-01",
+      "saptawara": "wraspati",
+      "pancawara": "umanis",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "wuku": "ugu"
+    },
+    {
+      "date": "2026-10-02",
+      "saptawara": "sukra",
+      "pancawara": "paing",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
+      "wuku": "ugu"
+    },
+    {
+      "date": "2026-10-03",
+      "saptawara": "saniscara",
+      "pancawara": "pon",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "wuku": "ugu"
+    },
+    {
+      "date": "2026-10-04",
+      "saptawara": "redite",
+      "pancawara": "wage",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "wuku": "wayang"
+    },
+    {
+      "date": "2026-10-05",
+      "saptawara": "soma",
+      "pancawara": "kliwon",
+      "triwara": "pasah",
+      "sadwara": "paniron",
+      "wuku": "wayang"
+    },
+    {
+      "date": "2026-10-06",
+      "saptawara": "anggara",
+      "pancawara": "umanis",
+      "triwara": "beteng",
+      "sadwara": "was",
+      "wuku": "wayang"
+    },
+    {
+      "date": "2026-10-07",
+      "saptawara": "buda",
+      "pancawara": "paing",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "wuku": "wayang"
+    },
+    {
+      "date": "2026-10-08",
+      "saptawara": "wraspati",
+      "pancawara": "pon",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
+      "wuku": "wayang"
+    },
+    {
+      "date": "2026-10-09",
+      "saptawara": "sukra",
+      "pancawara": "wage",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "wuku": "wayang"
+    },
+    {
+      "date": "2026-10-10",
+      "saptawara": "saniscara",
+      "pancawara": "kliwon",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "wuku": "wayang"
+    },
+    {
+      "date": "2026-10-11",
+      "saptawara": "redite",
+      "pancawara": "umanis",
+      "triwara": "pasah",
+      "sadwara": "paniron",
+      "wuku": "klawu"
+    },
+    {
+      "date": "2026-10-12",
+      "saptawara": "soma",
+      "pancawara": "paing",
+      "triwara": "beteng",
+      "sadwara": "was",
+      "wuku": "klawu"
+    },
+    {
+      "date": "2026-10-13",
+      "saptawara": "anggara",
+      "pancawara": "pon",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "wuku": "klawu"
+    },
+    {
+      "date": "2026-10-14",
+      "saptawara": "buda",
+      "pancawara": "wage",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
+      "wuku": "klawu"
+    },
+    {
+      "date": "2026-10-15",
+      "saptawara": "wraspati",
+      "pancawara": "kliwon",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "wuku": "klawu"
+    },
+    {
+      "date": "2026-10-16",
+      "saptawara": "sukra",
+      "pancawara": "umanis",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "wuku": "klawu"
+    },
+    {
+      "date": "2026-10-17",
+      "saptawara": "saniscara",
+      "pancawara": "paing",
+      "triwara": "pasah",
+      "sadwara": "paniron",
+      "wuku": "klawu"
+    },
+    {
+      "date": "2026-10-18",
+      "saptawara": "redite",
+      "pancawara": "pon",
+      "triwara": "beteng",
+      "sadwara": "was",
+      "wuku": "dukut"
+    },
+    {
+      "date": "2026-10-19",
+      "saptawara": "soma",
+      "pancawara": "wage",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "wuku": "dukut"
+    },
+    {
+      "date": "2026-10-20",
+      "saptawara": "anggara",
+      "pancawara": "kliwon",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
+      "wuku": "dukut"
+    },
+    {
+      "date": "2026-10-21",
+      "saptawara": "buda",
+      "pancawara": "umanis",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "wuku": "dukut"
+    },
+    {
+      "date": "2026-10-22",
+      "saptawara": "wraspati",
+      "pancawara": "paing",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "wuku": "dukut"
+    },
+    {
+      "date": "2026-10-23",
+      "saptawara": "sukra",
+      "pancawara": "pon",
+      "triwara": "pasah",
+      "sadwara": "paniron",
+      "wuku": "dukut"
+    },
+    {
+      "date": "2026-10-24",
+      "saptawara": "saniscara",
+      "pancawara": "wage",
+      "triwara": "beteng",
+      "sadwara": "was",
+      "wuku": "dukut"
+    },
+    {
+      "date": "2026-10-25",
+      "saptawara": "redite",
+      "pancawara": "kliwon",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "wuku": "watugunung"
+    },
+    {
+      "date": "2026-10-26",
+      "saptawara": "soma",
+      "pancawara": "umanis",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
+      "wuku": "watugunung"
+    },
+    {
+      "date": "2026-10-27",
+      "saptawara": "anggara",
+      "pancawara": "paing",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "wuku": "watugunung"
+    },
+    {
+      "date": "2026-10-28",
+      "saptawara": "buda",
+      "pancawara": "pon",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "wuku": "watugunung"
+    },
+    {
+      "date": "2026-10-29",
+      "saptawara": "wraspati",
+      "pancawara": "wage",
+      "triwara": "pasah",
+      "sadwara": "paniron",
+      "wuku": "watugunung"
+    },
+    {
+      "date": "2026-10-30",
+      "saptawara": "sukra",
+      "pancawara": "kliwon",
+      "triwara": "beteng",
+      "sadwara": "was",
+      "wuku": "watugunung"
+    },
+    {
+      "date": "2026-10-31",
+      "saptawara": "saniscara",
+      "pancawara": "umanis",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "wuku": "watugunung"
+    }
+  ]
+}
