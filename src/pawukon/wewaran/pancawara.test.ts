@@ -1,16 +1,24 @@
 import { describe, it, expect } from "bun:test";
 import { getPancawara } from "./pancawara";
 import dataset from "../../../data/wewaran-dataset.json";
+import negativeDataset from "../../../data/wewaran-dataset-negative.json";
 
 describe("getPancawara", () => {
 
-    // --- Dataset validation ---
-    // Source: balinese-date-js-lib v0.4.3 (github.com/peradnya/balinese-date-js-lib)
-    // References: babadbali.com, kalenderbali.org, kalenderbali.info
+    // --- Positive dataset validation ---
+    // Source: kalenderbali.com (I Wayan Nuarsa, Universitas Udayana)
 
     for (const entry of dataset.entries) {
         it(`${entry.date} is ${entry.pancawara}`, () => {
             expect(getPancawara(new Date(entry.date)).name).toBe(entry.pancawara);
+        });
+    }
+
+    // --- Negative dataset validation ---
+
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} is NOT ${entry.pancawara}`, () => {
+            expect(getPancawara(new Date(entry.date)).name).not.toBe(entry.pancawara);
         });
     }
 

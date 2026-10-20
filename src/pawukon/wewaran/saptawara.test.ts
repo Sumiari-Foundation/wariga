@@ -1,16 +1,25 @@
 import { describe, it, expect } from "bun:test";
 import { getSaptawara } from "./saptawara";
 import dataset from "../../../data/wewaran-dataset.json";
+import negativeDataset from "../../../data/wewaran-dataset-negative.json";
 
 describe("getSaptawara", () => {
 
-    // --- Dataset validation ---
-    // Source: balinese-date-js-lib v0.4.3 (github.com/peradnya/balinese-date-js-lib)
-    // References: babadbali.com, kalenderbali.org, kalenderbali.info
+    // --- Positive dataset validation ---
+    // Source: kalenderbali.com (I Wayan Nuarsa, Universitas Udayana)
 
     for (const entry of dataset.entries) {
         it(`${entry.date} is ${entry.saptawara}`, () => {
             expect(getSaptawara(new Date(entry.date)).name).toBe(entry.saptawara);
+        });
+    }
+
+    // --- Negative dataset validation ---
+    // Each entry contains a wrong saptawara value for the given date
+
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} is NOT ${entry.saptawara}`, () => {
+            expect(getSaptawara(new Date(entry.date)).name).not.toBe(entry.saptawara);
         });
     }
 
