@@ -1,10 +1,11 @@
 import { describe, it, expect } from "bun:test";
 import { getSasihPhase } from "./sasih-phase";
 import dataset from "../../data/saka-dataset.json";
+import negativeDataset from "../../data/saka-dataset-negative.json";
 
 describe("getSasihPhase", () => {
 
-    // --- Dataset validation ---
+    // --- Positive dataset validation ---
     // Source: kalenderbali.com (I Wayan Nuarsa, Universitas Udayana)
 
     for (const entry of dataset.entries) {
@@ -27,9 +28,18 @@ describe("getSasihPhase", () => {
         });
     }
 
+    // --- Negative dataset validation ---
+
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} is NOT ${entry.phase} ${entry.dayNumber}`, () => {
+            const result = getSasihPhase(new Date(entry.date));
+            const bothWrong = result.phase === entry.phase && result.dayNumber === entry.dayNumber;
+            expect(bothWrong).toBe(false);
+        });
+    }
+
     // --- Unique edge cases ---
 
-    // Return shape
     it("returns the correct shape", () => {
         const result = getSasihPhase(new Date("2025-02-27"));
         expect(result).toHaveProperty("phase");
@@ -38,7 +48,6 @@ describe("getSasihPhase", () => {
         expect(result).toHaveProperty("isTilem");
     });
 
-    // isPurnama and isTilem are mutually exclusive
     it("isPurnama and isTilem are never both true", () => {
         for (let i = 0; i < 60; i++) {
             const d = new Date("2025-02-27");
@@ -48,7 +57,6 @@ describe("getSasihPhase", () => {
         }
     });
 
-    // dayNumber always 1–15
     it("dayNumber is always between 1 and 15", () => {
         for (let i = 0; i < 60; i++) {
             const d = new Date("2025-02-27");
@@ -59,7 +67,6 @@ describe("getSasihPhase", () => {
         }
     });
 
-    // phase is always one of two valid strings
     it("phase is always Penanggal or Pangelong", () => {
         for (let i = 0; i < 60; i++) {
             const d = new Date("2025-02-27");
@@ -69,7 +76,6 @@ describe("getSasihPhase", () => {
         }
     });
 
-    // Input types
     it("accepts a string input", () => {
         expect(() => getSasihPhase("2025-02-27")).not.toThrow();
     });
