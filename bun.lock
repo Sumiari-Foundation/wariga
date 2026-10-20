@@ -5,7 +5,6 @@
     "": {
       "name": "wariga",
       "dependencies": {
-        "balinese-date-js-lib": "^0.4.3",
         "puppeteer-core": "^25.14.0",
       },
       "devDependencies": {
@@ -27,15 +26,11 @@
 
     "ansi-styles": ["ansi-styles@6.2.3", "", {}, "sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg=="],
 
-    "balinese-date-js-lib": ["balinese-date-js-lib@0.4.3", "", { "dependencies": { "date-fns": "^1.29.0" } }, "sha512-LCexpHfAURvrRVe7cMjdik/J7Or/nFi2F9FTPQG0tuMzoaXPoOvh73Q2lTdlZ+tQXWEJg0b2wI0vP9NT1KuL+Q=="],
-
     "bun-types": ["bun-types@1.3.10", "", { "dependencies": { "@types/node": "*" } }, "sha512-tcpfCCl6XWo6nCVnpcVrxQ+9AYN1iqMIzgrSKYMB/fjLtV2eyAVEg7AxQJuCq/26R6HpKWykQXuSOq/21RYcbg=="],
 
     "chromium-bidi": ["chromium-bidi@157.0.8090-0", "", { "dependencies": { "mitt": "^3.0.1", "zod": "^4.6.5" }, "peerDependencies": { "devtools-protocol": "*" } }, "sha512-KJw7IQgqXwxpJgJlEIPg5mr2ZoqA+jkTRtc5EABI7sUJ3bu3cpI7NuEBoj4Gn1AsF78CaT9So5WQWspK3/wYag=="],
 
     "cliui": ["cliui@9.0.1", "", { "dependencies": { "string-width": "^7.2.0", "strip-ansi": "^7.1.0", "wrap-ansi": "^9.0.0" } }, "sha512-k7ndgKhwoQveBL+/1tqGJYNz097I7WOvwbmmU2AR5+magtbjPWQTS1C5vzGkBC8Ym8UWRzfKUzUUqFLypY4Q+w=="],
-
-    "date-fns": ["date-fns@1.30.1", "", {}, "sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw=="],
 
     "devtools-protocol": ["devtools-protocol@0.0.1696802", "", {}, "sha512-FO5/SENfvc2K8wRnWQflKcwuoTH4dBkXCWTQ9ebIWtuX8JM5+ZvCotaEmkfh21pO7TvIKGTM3hG4xFiq9WTwmg=="],
 
