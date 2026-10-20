@@ -1,10 +1,11 @@
 import { describe, it, expect } from "bun:test";
 import { getSasihName } from "./sasih-name";
 import dataset from "../../data/saka-dataset.json";
+import negativeDataset from "../../data/saka-dataset-negative.json";
 
 describe("getSasihName", () => {
 
-    // --- Dataset validation ---
+    // --- Positive dataset validation ---
     // Source: kalenderbali.com (I Wayan Nuarsa, Universitas Udayana)
 
     for (const entry of dataset.entries) {
@@ -13,9 +14,16 @@ describe("getSasihName", () => {
         });
     }
 
+    // --- Negative dataset validation ---
+
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} is NOT ${entry.sasih}`, () => {
+            expect(getSasihName(new Date(entry.date)).sasihName.toLowerCase()).not.toBe(entry.sasih);
+        });
+    }
+
     // --- Unique edge cases ---
 
-    // Return shape
     it("returns the correct shape", () => {
         const result = getSasihName(new Date("2025-02-27"));
         expect(result).toHaveProperty("monthNumber");
@@ -23,7 +31,7 @@ describe("getSasihName", () => {
         expect(result).toHaveProperty("isLeapMonth");
     });
 
-    // Leap month prefix
+    // Leap month prefix — unique behavior worth testing explicitly
     it("sasihName is prefixed with 'Mala' when isLeapMonth is true", () => {
         for (let i = 0; i < 365 * 3; i++) {
             const d = new Date("2025-02-27");
@@ -47,7 +55,6 @@ describe("getSasihName", () => {
         }
     });
 
-    // monthNumber always 1–12
     it("monthNumber is always between 1 and 12", () => {
         for (let i = 0; i < 365; i++) {
             const d = new Date("2025-02-27");
@@ -58,7 +65,6 @@ describe("getSasihName", () => {
         }
     });
 
-    // Input types
     it("accepts a string input", () => {
         expect(() => getSasihName("2025-02-27")).not.toThrow();
     });
