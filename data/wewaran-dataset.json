@@ -1,9 +1,9 @@
 {
   "source": "https://kalenderbali.com",
   "reference": "I Wayan Nuarsa, Universitas Udayana",
-  "note": "Dataset scraped from kalenderbali.com. Dates spread across 2025–2027 with edge case dates included. All wewaran fields extracted from data-detail JSON attribute.",
-  "scrapedAt": "2026-10-20T07:33:23.519Z",
-  "totalEntries": 455,
+  "note": "Dataset scraped from kalenderbali.com using fetch + cheerio. Dates spread across 2025–2027 with edge case dates included.",
+  "scrapedAt": "2026-10-20T08:06:35.817Z",
+  "totalEntries": 451,
   "entries": [
     {
       "date": "2024-02-01",
@@ -412,20 +412,6 @@
       "wuku": "wariga"
     },
     {
-      "date": "2024-02-30",
-      "saptawara": "anggara",
-      "pancawara": "umanis",
-      "triwara": "kajeng",
-      "sadwara": "urukung",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "sri",
-      "astawara": "ludra",
-      "sangawara": "erangan",
-      "dasawara": "dewa",
-      "wuku": "wariga"
-    },
-    {
       "date": "2025-02-01",
       "saptawara": "saniscara",
       "pancawara": "wage",
@@ -815,34 +801,6 @@
       "astawara": "ludra",
       "sangawara": "urungan",
       "dasawara": "pati",
-      "wuku": "dukut"
-    },
-    {
-      "date": "2025-02-29",
-      "saptawara": "buda",
-      "pancawara": "umanis",
-      "triwara": "beteng",
-      "sadwara": "aryang",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "laba",
-      "astawara": "brahma",
-      "sangawara": "tulus",
-      "dasawara": "suka",
-      "wuku": "dukut"
-    },
-    {
-      "date": "2025-02-30",
-      "saptawara": "wraspati",
-      "pancawara": "paing",
-      "triwara": "kajeng",
-      "sadwara": "urukung",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "jaya",
-      "astawara": "kala",
-      "sangawara": "dadi",
-      "dasawara": "raja",
       "wuku": "dukut"
     },
     {
@@ -6360,20 +6318,6 @@
       "sangawara": "dadi",
       "dasawara": "suka",
       "wuku": "sungsang"
-    },
-    {
-      "date": "2028-02-30",
-      "saptawara": "redite",
-      "pancawara": "paing",
-      "triwara": "kajeng",
-      "sadwara": "maulu",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "menala",
-      "astawara": "yama",
-      "sangawara": "erangan",
-      "dasawara": "sri",
-      "wuku": "gumbreg"
     }
   ]
 }

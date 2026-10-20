@@ -1,15 +1,15 @@
 {
   "name": "wariga",
   "module": "index.ts",
-  "type": "module",
-  "private": true,
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
+  "private": true,
+  "type": "module",
   "dependencies": {
-    "puppeteer-core": "^25.14.0"
+    "cheerio": "^1.2.0"
   }
 }
