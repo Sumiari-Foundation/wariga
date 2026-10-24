@@ -2,8 +2,8 @@ import { DRIFT_PER_MONTH, LUNAR_MONTH } from "../consts/lunar-month.js";
 import { getDaysSinceKasaAnchorDate, type Dateable } from "../utilities/date.js";
 
 const SASIH = [
-    "Kasa", "Karo", "Katiga", "Kapat", "Kelima", "Kenam",
-    "Kepitu", "Kewulu", "Kesanga", "Kedasa", "Jiyestha", "Sadha"
+    "Kasa", "Karo", "Katiga", "Kapat", "Kalima", "Kanam",
+    "Kapitu", "Kaulu", "Kasanga", "Kedasa", "Jyestha", "Sadha"
 ] as const;
 
 export const getSasihName = (date: Dateable) => {
