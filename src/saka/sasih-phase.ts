@@ -4,8 +4,10 @@ import { getDaysSinceKasaAnchorDate, type Dateable } from "../utilities/date.js"
 export const getSasihPhase = (date: Dateable) => {
     const daysSinceAnchorDate = getDaysSinceKasaAnchorDate(date);
     
-    // We add a small offset to align the phase shift to the Balinese dawn (usually 6 AM)
-    const elapsedTithis = (daysSinceAnchorDate / TITHI) + 0.25; 
+    // We add an offset to align the tithi with the Balinese calendar start
+    // Anchor date (2024-07-07) is Kasa Penanggal 1, offset calibrated to match
+    // reference data from kalenderbali.com
+    const elapsedTithis = (daysSinceAnchorDate / TITHI) + 0.6778; 
     
     // Find the exact day within the 30-day lunar cycle
     // We use modulo 30, and Math.floor to get the whole number

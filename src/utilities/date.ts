@@ -31,5 +31,7 @@ export const getDaysSincePawukonAnchorDate = (date: Dateable) => {
 }
 
 export const getDaysSinceKasaAnchorDate = (date: Dateable) => {
-    return getDaysSinceAnchorDate(date, KASA_NEW_MOON_ANCHOR_DATE);
+    // Saka calendar has no 210-day cycle — use raw day difference (can be negative)
+    const dateObj = getValidDate(date);
+    return Math.floor((dateObj.getTime() - KASA_NEW_MOON_ANCHOR_DATE.getTime()) / MS_PER_DAY);
 }
