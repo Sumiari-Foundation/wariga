@@ -1,11 +1,22 @@
 import { describe, it, expect } from "bun:test";
 import { getAstawara } from "./astawara";
+import negativeDataset from "../../../data/wewaran-dataset-negative.json";
+import { getSaptawara, getPancawara } from "./index";
 
 describe("getAstawara", () => {
 
-    // --- Edge cases only ---
-    // astawara excluded from dataset — discrepancy found at day 71 of each cycle
+    // --- Negative dataset validation ---
+    // astawara excluded from positive dataset — discrepancy found at day 71 of each cycle
     // between our implementation and reference library, reported to reviewer
+    // negative values generated from our own code's output shifted by one
+
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} is NOT ${entry.astawara}`, () => {
+            expect(getAstawara(new Date(entry.date)).name).not.toBe(entry.astawara);
+        });
+    }
+
+    // --- Edge cases ---
 
     it("anchor date 2025-02-09 is sri (index 0)", () => {
         expect(getAstawara(new Date("2025-02-09")).name).toBe("sri");

@@ -1,6 +1,7 @@
 import { describe, it, expect } from "bun:test";
 import { getDasawara } from "./dasawara";
 import dataset from "../../../data/wewaran-dataset.json";
+import negativeDataset from "../../../data/wewaran-dataset-negative.json";
 import { getSaptawara, getPancawara } from "./index";
 
 describe("getDasawara", () => {
@@ -14,6 +15,14 @@ describe("getDasawara", () => {
             const date = new Date(entry.date);
             const uripSum = getSaptawara(date).urip + getPancawara(date).urip;
             expect(getDasawara(uripSum).name).toBe(entry.dasawara);
+        });
+    }
+
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} is NOT ${entry.dasawara}`, () => {
+            const date = new Date(entry.date);
+            const uripSum = getSaptawara(date).urip + getPancawara(date).urip;
+            expect(getDasawara(uripSum).name).not.toBe(entry.dasawara);
         });
     }
 

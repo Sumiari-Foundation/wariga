@@ -1,14 +1,25 @@
 import { describe, it, expect } from "bun:test";
 import { getEkawara } from "./ekawara";
+import negativeDataset from "../../../data/wewaran-dataset-negative.json";
+import { getSaptawara, getPancawara } from "./index";
 
 describe("getEkawara", () => {
 
-    // --- Edge cases only ---
-    // ekawara excluded from dataset — discrepancy found between our implementation
+    // --- Negative dataset validation ---
+    // ekawara excluded from positive dataset — discrepancy found between our implementation
     // and reference library (peradnya/balinese-date-js-lib), reported to reviewer
+    // negative values are flipped: null→luang, luang→null
 
-    // EKAWARA only has 1 element at index 0 (luang)
-    // even uripSum → luang, odd → undefined
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} ekawara is NOT ${entry.ekawara}`, () => {
+            const date = new Date(entry.date);
+            const uripSum = getSaptawara(date).urip + getPancawara(date).urip;
+            const result = getEkawara(uripSum)?.name?.toLowerCase() ?? null;
+            expect(result).not.toBe(entry.ekawara);
+        });
+    }
+
+    // --- Edge cases ---
 
     it("even uripSum 14 → luang", () => {
         expect(getEkawara(14)?.name).toBe("luang");

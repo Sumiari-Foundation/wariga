@@ -1,11 +1,21 @@
 import { describe, it, expect } from "bun:test";
 import { getCaturwara } from "./caturwara";
+import negativeDataset from "../../../data/wewaran-dataset-negative.json";
 
 describe("getCaturwara", () => {
 
-    // --- Edge cases only ---
-    // caturwara excluded from dataset — discrepancy found between our implementation
+    // --- Negative dataset validation ---
+    // caturwara excluded from positive dataset — discrepancy found between our implementation
     // and reference library (peradnya/balinese-date-js-lib), reported to reviewer
+    // negative values generated from our own code's output shifted by one
+
+    for (const entry of negativeDataset.entries) {
+        it(`${entry.date} is NOT ${entry.caturwara}`, () => {
+            expect(getCaturwara(new Date(entry.date)).name.toLowerCase()).not.toBe(entry.caturwara);
+        });
+    }
+
+    // --- Edge cases ---
 
     it("anchor date 2025-02-09 is sri (index 0)", () => {
         expect(getCaturwara(new Date("2025-02-09")).name).toBe("sri");
