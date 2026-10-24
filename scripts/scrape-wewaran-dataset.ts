@@ -38,7 +38,18 @@ const MONTHS_TO_SCRAPE = [
 // Known typos on the source site
 const WUKU_TYPOS: Record<string, string> = {
     "dunggulan": "dungulan",
+    "kulawu": "klawu",  // site uses "Kulawu", code uses "Klawu"
 };
+
+// Normalize site spelling to match our implementation
+const NORMALIZE: Record<string, string> = {
+    "keliwon": "kliwon",  // site uses "Keliwon", code uses "Kliwon"
+};
+
+function normalizeValue(name: string | null): string | null {
+    if (!name) return null;
+    return NORMALIZE[name] ?? name;
+}
 
 function normalizeWuku(name: string | null): string | null {
     if (!name) return null;
@@ -68,8 +79,23 @@ async function scrapeMonth(year: number, month: number) {
 
         try {
             const detail = JSON.parse(detailStr);
-            const day = parseInt(tgl.split(" ")[0]);
+            const parts = tgl.split(" ");
+            const day = parseInt(parts[0]);
             if (isNaN(day)) return;
+
+            // Parse year and month from data-tgl to avoid misassigning
+            // dates from adjacent months that appear on the same calendar page
+            const MONTH_MAP: Record<string, number> = {
+                "Januari": 1, "Februari": 2, "Maret": 3, "April": 4,
+                "Mei": 5, "Juni": 6, "Juli": 7, "Agustus": 8,
+                "September": 9, "Oktober": 10, "November": 11, "Desember": 12
+            };
+            const tglMonth = MONTH_MAP[parts[1]];
+            const tglYear = parseInt(parts[2]);
+            if (!tglMonth || isNaN(tglYear)) return;
+
+            // Only include dates that belong to the requested month/year
+            if (tglMonth !== month || tglYear !== year) return;
 
             const dateStr = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 
@@ -94,7 +120,7 @@ async function scrapeMonth(year: number, month: number) {
             entries.push({
                 date: dateStr,
                 saptawara: detail["Sapta Wara"]?.toLowerCase() || null,
-                pancawara: detail["Panca Wara"]?.toLowerCase() || null,
+                pancawara: normalizeValue(detail["Panca Wara"]?.toLowerCase() || null),
                 triwara: detail["Tri Wara"]?.toLowerCase() || null,
                 sadwara: detail["Sad Wara"]?.toLowerCase() || null,
                 ekawara,

@@ -2,7 +2,7 @@
   "source": "https://kalenderbali.com",
   "reference": "I Wayan Nuarsa, Universitas Udayana",
   "note": "Dataset scraped from kalenderbali.com using fetch + cheerio. Dates spread across 2025–2027 with edge case dates included.",
-  "scrapedAt": "2026-10-20T08:06:35.817Z",
+  "scrapedAt": "2026-10-24T03:31:36.455Z",
   "totalEntries": 451,
   "entries": [
     {
@@ -35,17 +35,17 @@
     },
     {
       "date": "2024-02-03",
-      "saptawara": "redite",
-      "pancawara": "wage",
-      "triwara": "kajeng",
-      "sadwara": "maulu",
+      "saptawara": "saniscara",
+      "pancawara": "kliwon",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
       "ekawara": "luang",
       "dwiwara": "pepet",
-      "caturwara": "menala",
-      "astawara": "yama",
-      "sangawara": "gigis",
-      "dasawara": "raksasa",
-      "wuku": "kuningan"
+      "caturwara": "sri",
+      "astawara": "sri",
+      "sangawara": "dangu",
+      "dasawara": "raja",
+      "wuku": "wariga"
     },
     {
       "date": "2024-02-04",
@@ -106,7 +106,7 @@
     {
       "date": "2024-02-08",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": null,
@@ -176,7 +176,7 @@
     {
       "date": "2024-02-13",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -246,7 +246,7 @@
     {
       "date": "2024-02-18",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -316,7 +316,7 @@
     {
       "date": "2024-02-23",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -385,31 +385,31 @@
     },
     {
       "date": "2024-02-28",
-      "saptawara": "redite",
-      "pancawara": "wage",
-      "triwara": "pasah",
-      "sadwara": "tungleh",
+      "saptawara": "buda",
+      "pancawara": "kliwon",
+      "triwara": "beteng",
+      "sadwara": "aryang",
       "ekawara": "luang",
       "dwiwara": "pepet",
-      "caturwara": "jaya",
-      "astawara": "guru",
-      "sangawara": "nohan",
-      "dasawara": "raksasa",
-      "wuku": "wariga"
+      "caturwara": "menala",
+      "astawara": "uma",
+      "sangawara": "tulus",
+      "dasawara": "manuh",
+      "wuku": "dungulan"
     },
     {
       "date": "2024-02-29",
-      "saptawara": "soma",
-      "pancawara": "keliwon",
-      "triwara": "beteng",
-      "sadwara": "aryang",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "menala",
-      "astawara": "yama",
-      "sangawara": "ogan",
-      "dasawara": "suka",
-      "wuku": "wariga"
+      "saptawara": "wraspati",
+      "pancawara": "umanis",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "sri",
+      "astawara": "sri",
+      "sangawara": "dadi",
+      "dasawara": "duka",
+      "wuku": "dungulan"
     },
     {
       "date": "2025-02-01",
@@ -428,7 +428,7 @@
     {
       "date": "2025-02-02",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": "luang",
@@ -498,7 +498,7 @@
     {
       "date": "2025-02-07",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": null,
@@ -568,7 +568,7 @@
     {
       "date": "2025-02-12",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -638,7 +638,7 @@
     {
       "date": "2025-02-17",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -708,7 +708,7 @@
     {
       "date": "2025-02-22",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -763,45 +763,45 @@
     },
     {
       "date": "2025-02-26",
-      "saptawara": "redite",
-      "pancawara": "pon",
-      "triwara": "beteng",
-      "sadwara": "was",
+      "saptawara": "buda",
+      "pancawara": "wage",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "laba",
+      "astawara": "indra",
+      "sangawara": "erangan",
+      "dasawara": "pati",
+      "wuku": "ukir"
+    },
+    {
+      "date": "2025-02-27",
+      "saptawara": "wraspati",
+      "pancawara": "kliwon",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
       "ekawara": null,
       "dwiwara": "menga",
       "caturwara": "jaya",
       "astawara": "guru",
-      "sangawara": "ogan",
-      "dasawara": "suka",
-      "wuku": "dukut"
-    },
-    {
-      "date": "2025-02-27",
-      "saptawara": "soma",
-      "pancawara": "wage",
-      "triwara": "kajeng",
-      "sadwara": "maulu",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "menala",
-      "astawara": "yama",
-      "sangawara": "erangan",
-      "dasawara": "dewa",
-      "wuku": "dukut"
+      "sangawara": "urungan",
+      "dasawara": "manusa",
+      "wuku": "ukir"
     },
     {
       "date": "2025-02-28",
-      "saptawara": "anggara",
-      "pancawara": "keliwon",
-      "triwara": "pasah",
-      "sadwara": "tungleh",
+      "saptawara": "sukra",
+      "pancawara": "umanis",
+      "triwara": "beteng",
+      "sadwara": "aryang",
       "ekawara": "luang",
       "dwiwara": "pepet",
-      "caturwara": "sri",
-      "astawara": "ludra",
-      "sangawara": "urungan",
+      "caturwara": "menala",
+      "astawara": "yama",
+      "sangawara": "tulus",
       "dasawara": "pati",
-      "wuku": "dukut"
+      "wuku": "ukir"
     },
     {
       "date": "2025-04-01",
@@ -834,7 +834,7 @@
     {
       "date": "2025-04-03",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": null,
@@ -847,31 +847,31 @@
     },
     {
       "date": "2025-04-04",
-      "saptawara": "redite",
+      "saptawara": "sukra",
       "pancawara": "umanis",
       "triwara": "pasah",
       "sadwara": "tungleh",
-      "ekawara": null,
-      "dwiwara": "menga",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
       "caturwara": "jaya",
-      "astawara": "guru",
-      "sangawara": "dangu",
-      "dasawara": "pandita",
-      "wuku": "langkir"
+      "astawara": "kala",
+      "sangawara": "urungan",
+      "dasawara": "pati",
+      "wuku": "warigadean"
     },
     {
       "date": "2025-04-05",
-      "saptawara": "soma",
+      "saptawara": "saniscara",
       "pancawara": "paing",
       "triwara": "beteng",
       "sadwara": "aryang",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
+      "ekawara": null,
+      "dwiwara": "menga",
       "caturwara": "menala",
-      "astawara": "yama",
-      "sangawara": "jangur",
-      "dasawara": "duka",
-      "wuku": "langkir"
+      "astawara": "uma",
+      "sangawara": "tulus",
+      "dasawara": "dewa",
+      "wuku": "warigadean"
     },
     {
       "date": "2025-04-06",
@@ -904,7 +904,7 @@
     {
       "date": "2025-04-08",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -974,7 +974,7 @@
     {
       "date": "2025-04-13",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -1044,7 +1044,7 @@
     {
       "date": "2025-04-18",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -1114,7 +1114,7 @@
     {
       "date": "2025-04-23",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -1184,7 +1184,7 @@
     {
       "date": "2025-04-28",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": null,
@@ -1211,17 +1211,17 @@
     },
     {
       "date": "2025-04-30",
-      "saptawara": "redite",
-      "pancawara": "umanis",
-      "triwara": "beteng",
-      "sadwara": "aryang",
+      "saptawara": "buda",
+      "pancawara": "paing",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
       "ekawara": null,
       "dwiwara": "menga",
-      "caturwara": "laba",
-      "astawara": "indra",
-      "sangawara": "jangur",
-      "dasawara": "pandita",
-      "wuku": "warigadean"
+      "caturwara": "jaya",
+      "astawara": "kala",
+      "sangawara": "erangan",
+      "dasawara": "manusa",
+      "wuku": "kuningan"
     },
     {
       "date": "2025-07-01",
@@ -1240,7 +1240,7 @@
     {
       "date": "2025-07-02",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": "luang",
@@ -1253,31 +1253,31 @@
     },
     {
       "date": "2025-07-03",
-      "saptawara": "redite",
-      "pancawara": "paing",
-      "triwara": "beteng",
-      "sadwara": "aryang",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "laba",
-      "astawara": "brahma",
-      "sangawara": "jangur",
-      "dasawara": "sri",
-      "wuku": "ugu"
-    },
-    {
-      "date": "2025-07-04",
-      "saptawara": "soma",
-      "pancawara": "pon",
-      "triwara": "kajeng",
-      "sadwara": "urukung",
+      "saptawara": "wraspati",
+      "pancawara": "umanis",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
       "ekawara": "luang",
       "dwiwara": "pepet",
       "caturwara": "jaya",
       "astawara": "kala",
-      "sangawara": "gigis",
-      "dasawara": "pati",
-      "wuku": "ugu"
+      "sangawara": "urungan",
+      "dasawara": "duka",
+      "wuku": "matal"
+    },
+    {
+      "date": "2025-07-04",
+      "saptawara": "sukra",
+      "pancawara": "paing",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "menala",
+      "astawara": "uma",
+      "sangawara": "tulus",
+      "dasawara": "manuh",
+      "wuku": "matal"
     },
     {
       "date": "2025-07-05",
@@ -1310,7 +1310,7 @@
     {
       "date": "2025-07-07",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": null,
@@ -1380,7 +1380,7 @@
     {
       "date": "2025-07-12",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -1450,7 +1450,7 @@
     {
       "date": "2025-07-17",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -1520,7 +1520,7 @@
     {
       "date": "2025-07-22",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -1590,7 +1590,7 @@
     {
       "date": "2025-07-27",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -1617,17 +1617,17 @@
     },
     {
       "date": "2025-07-29",
-      "saptawara": "redite",
+      "saptawara": "anggara",
       "pancawara": "paing",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
       "dwiwara": "menga",
-      "caturwara": "jaya",
-      "astawara": "guru",
-      "sangawara": "gigis",
-      "dasawara": "sri",
-      "wuku": "matal"
+      "caturwara": "sri",
+      "astawara": "sri",
+      "sangawara": "erangan",
+      "dasawara": "suka",
+      "wuku": "bala"
     },
     {
       "date": "2025-07-30",
@@ -1715,31 +1715,31 @@
     },
     {
       "date": "2025-09-05",
-      "saptawara": "redite",
-      "pancawara": "keliwon",
+      "saptawara": "sukra",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "sri",
-      "astawara": "ludra",
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "jaya",
+      "astawara": "kala",
       "sangawara": "tulus",
-      "dasawara": "duka",
-      "wuku": "tolu"
+      "dasawara": "sri",
+      "wuku": "watugunung"
     },
     {
       "date": "2025-09-06",
-      "saptawara": "soma",
+      "saptawara": "saniscara",
       "pancawara": "umanis",
       "triwara": "kajeng",
       "sadwara": "maulu",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "laba",
-      "astawara": "brahma",
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "menala",
+      "astawara": "uma",
       "sangawara": "dadi",
-      "dasawara": "raksasa",
-      "wuku": "tolu"
+      "dasawara": "sri",
+      "wuku": "watugunung"
     },
     {
       "date": "2025-09-07",
@@ -1786,7 +1786,7 @@
     {
       "date": "2025-09-10",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -1856,7 +1856,7 @@
     {
       "date": "2025-09-15",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -1926,7 +1926,7 @@
     {
       "date": "2025-09-20",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -1996,7 +1996,7 @@
     {
       "date": "2025-09-25",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": null,
@@ -2066,7 +2066,7 @@
     {
       "date": "2025-09-30",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": "luang",
@@ -2093,31 +2093,31 @@
     },
     {
       "date": "2025-10-02",
-      "saptawara": "redite",
-      "pancawara": "pon",
-      "triwara": "kajeng",
-      "sadwara": "urukung",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "sri",
-      "astawara": "sri",
-      "sangawara": "dadi",
-      "dasawara": "suka",
-      "wuku": "julungwangi"
+      "saptawara": "wraspati",
+      "pancawara": "paing",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "laba",
+      "astawara": "indra",
+      "sangawara": "ogan",
+      "dasawara": "raja",
+      "wuku": "kulantir"
     },
     {
       "date": "2025-10-03",
-      "saptawara": "soma",
-      "pancawara": "wage",
-      "triwara": "pasah",
-      "sadwara": "paniron",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "laba",
-      "astawara": "indra",
-      "sangawara": "dangu",
-      "dasawara": "dewa",
-      "wuku": "julungwangi"
+      "saptawara": "sukra",
+      "pancawara": "pon",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "jaya",
+      "astawara": "guru",
+      "sangawara": "erangan",
+      "dasawara": "duka",
+      "wuku": "kulantir"
     },
     {
       "date": "2025-10-04",
@@ -2136,7 +2136,7 @@
     {
       "date": "2025-10-05",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -2206,7 +2206,7 @@
     {
       "date": "2025-10-10",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": null,
@@ -2276,7 +2276,7 @@
     {
       "date": "2025-10-15",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": "luang",
@@ -2346,7 +2346,7 @@
     {
       "date": "2025-10-20",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": null,
@@ -2416,7 +2416,7 @@
     {
       "date": "2025-10-25",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -2457,36 +2457,36 @@
     },
     {
       "date": "2025-10-28",
-      "saptawara": "redite",
+      "saptawara": "anggara",
       "pancawara": "pon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": null,
       "dwiwara": "menga",
-      "caturwara": "laba",
-      "astawara": "brahma",
-      "sangawara": "dangu",
-      "dasawara": "suka",
-      "wuku": "kulantir"
+      "caturwara": "menala",
+      "astawara": "yama",
+      "sangawara": "nohan",
+      "dasawara": "pandita",
+      "wuku": "warigadean"
     },
     {
       "date": "2025-10-29",
-      "saptawara": "soma",
+      "saptawara": "buda",
       "pancawara": "wage",
       "triwara": "beteng",
       "sadwara": "was",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "jaya",
-      "astawara": "kala",
-      "sangawara": "jangur",
-      "dasawara": "dewa",
-      "wuku": "kulantir"
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "sri",
+      "astawara": "ludra",
+      "sangawara": "ogan",
+      "dasawara": "pati",
+      "wuku": "warigadean"
     },
     {
       "date": "2025-10-30",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": null,
@@ -2513,36 +2513,36 @@
     },
     {
       "date": "2026-01-01",
-      "saptawara": "redite",
-      "pancawara": "wage",
-      "triwara": "pasah",
-      "sadwara": "paniron",
+      "saptawara": "wraspati",
+      "pancawara": "pon",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
       "ekawara": "luang",
       "dwiwara": "pepet",
-      "caturwara": "laba",
-      "astawara": "indra",
-      "sangawara": "dangu",
-      "dasawara": "raksasa",
-      "wuku": "uye"
+      "caturwara": "jaya",
+      "astawara": "guru",
+      "sangawara": "erangan",
+      "dasawara": "manuh",
+      "wuku": "krulut"
     },
     {
       "date": "2026-01-02",
-      "saptawara": "soma",
-      "pancawara": "keliwon",
-      "triwara": "beteng",
-      "sadwara": "was",
+      "saptawara": "sukra",
+      "pancawara": "wage",
+      "triwara": "pasah",
+      "sadwara": "paniron",
       "ekawara": null,
       "dwiwara": "menga",
-      "caturwara": "jaya",
-      "astawara": "guru",
-      "sangawara": "jangur",
-      "dasawara": "suka",
-      "wuku": "uye"
+      "caturwara": "menala",
+      "astawara": "yama",
+      "sangawara": "urungan",
+      "dasawara": "pandita",
+      "wuku": "krulut"
     },
     {
       "date": "2026-01-03",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -2612,7 +2612,7 @@
     {
       "date": "2026-01-08",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": null,
@@ -2682,7 +2682,7 @@
     {
       "date": "2026-01-13",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": "luang",
@@ -2752,7 +2752,7 @@
     {
       "date": "2026-01-18",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -2822,7 +2822,7 @@
     {
       "date": "2026-01-23",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": null,
@@ -2891,45 +2891,45 @@
     },
     {
       "date": "2026-01-28",
-      "saptawara": "redite",
-      "pancawara": "wage",
-      "triwara": "beteng",
-      "sadwara": "was",
+      "saptawara": "buda",
+      "pancawara": "kliwon",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "laba",
+      "astawara": "brahma",
+      "sangawara": "erangan",
+      "dasawara": "manuh",
+      "wuku": "matal"
+    },
+    {
+      "date": "2026-01-29",
+      "saptawara": "wraspati",
+      "pancawara": "umanis",
+      "triwara": "pasah",
+      "sadwara": "tungleh",
       "ekawara": "luang",
       "dwiwara": "pepet",
       "caturwara": "jaya",
       "astawara": "kala",
-      "sangawara": "jangur",
-      "dasawara": "raksasa",
-      "wuku": "krulut"
-    },
-    {
-      "date": "2026-01-29",
-      "saptawara": "soma",
-      "pancawara": "keliwon",
-      "triwara": "kajeng",
-      "sadwara": "maulu",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "menala",
-      "astawara": "uma",
-      "sangawara": "gigis",
-      "dasawara": "suka",
-      "wuku": "krulut"
+      "sangawara": "urungan",
+      "dasawara": "duka",
+      "wuku": "matal"
     },
     {
       "date": "2026-01-30",
-      "saptawara": "anggara",
-      "pancawara": "umanis",
-      "triwara": "pasah",
-      "sadwara": "tungleh",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "sri",
-      "astawara": "sri",
-      "sangawara": "nohan",
-      "dasawara": "dewa",
-      "wuku": "krulut"
+      "saptawara": "sukra",
+      "pancawara": "paing",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "menala",
+      "astawara": "uma",
+      "sangawara": "tulus",
+      "dasawara": "manuh",
+      "wuku": "matal"
     },
     {
       "date": "2026-01-31",
@@ -2990,7 +2990,7 @@
     {
       "date": "2026-03-04",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -3003,17 +3003,17 @@
     },
     {
       "date": "2026-03-05",
-      "saptawara": "redite",
-      "pancawara": "paing",
-      "triwara": "pasah",
-      "sadwara": "tungleh",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "sri",
-      "astawara": "sri",
-      "sangawara": "dangu",
-      "dasawara": "sri",
-      "wuku": "sinta"
+      "saptawara": "wraspati",
+      "pancawara": "umanis",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "laba",
+      "astawara": "indra",
+      "sangawara": "erangan",
+      "dasawara": "duka",
+      "wuku": "ugu"
     },
     {
       "date": "2026-03-06",
@@ -3060,7 +3060,7 @@
     {
       "date": "2026-03-09",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": null,
@@ -3130,7 +3130,7 @@
     {
       "date": "2026-03-14",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": "luang",
@@ -3153,7 +3153,7 @@
       "astawara": "yama",
       "sangawara": "urungan",
       "dasawara": "pandita",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2026-03-16",
@@ -3167,7 +3167,7 @@
       "astawara": "ludra",
       "sangawara": "tulus",
       "dasawara": "duka",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2026-03-17",
@@ -3181,7 +3181,7 @@
       "astawara": "brahma",
       "sangawara": "dadi",
       "dasawara": "pandita",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2026-03-18",
@@ -3195,12 +3195,12 @@
       "astawara": "kala",
       "sangawara": "dangu",
       "dasawara": "pati",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2026-03-19",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": null,
@@ -3209,7 +3209,7 @@
       "astawara": "uma",
       "sangawara": "jangur",
       "dasawara": "manusa",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2026-03-20",
@@ -3223,7 +3223,7 @@
       "astawara": "sri",
       "sangawara": "gigis",
       "dasawara": "pati",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2026-03-21",
@@ -3237,7 +3237,7 @@
       "astawara": "indra",
       "sangawara": "nohan",
       "dasawara": "dewa",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2026-03-22",
@@ -3270,7 +3270,7 @@
     {
       "date": "2026-03-24",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -3340,7 +3340,7 @@
     {
       "date": "2026-03-29",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": "luang",
@@ -3396,7 +3396,7 @@
     {
       "date": "2026-06-02",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -3437,36 +3437,36 @@
     },
     {
       "date": "2026-06-05",
-      "saptawara": "redite",
+      "saptawara": "sukra",
       "pancawara": "pon",
       "triwara": "beteng",
       "sadwara": "aryang",
-      "ekawara": null,
-      "dwiwara": "menga",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
       "caturwara": "laba",
-      "astawara": "indra",
-      "sangawara": "tulus",
-      "dasawara": "suka",
-      "wuku": "medangsia"
+      "astawara": "brahma",
+      "sangawara": "ogan",
+      "dasawara": "duka",
+      "wuku": "julungwangi"
     },
     {
       "date": "2026-06-06",
-      "saptawara": "soma",
+      "saptawara": "saniscara",
       "pancawara": "wage",
       "triwara": "kajeng",
       "sadwara": "urukung",
-      "ekawara": null,
-      "dwiwara": "menga",
+      "ekawara": "luang",
+      "dwiwara": "pepet",
       "caturwara": "jaya",
-      "astawara": "guru",
-      "sangawara": "dadi",
-      "dasawara": "dewa",
-      "wuku": "medangsia"
+      "astawara": "kala",
+      "sangawara": "erangan",
+      "dasawara": "duka",
+      "wuku": "julungwangi"
     },
     {
       "date": "2026-06-07",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -3536,7 +3536,7 @@
     {
       "date": "2026-06-12",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -3606,7 +3606,7 @@
     {
       "date": "2026-06-17",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -3676,7 +3676,7 @@
     {
       "date": "2026-06-22",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": null,
@@ -3746,7 +3746,7 @@
     {
       "date": "2026-06-27",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": "luang",
@@ -3843,31 +3843,31 @@
     },
     {
       "date": "2026-09-04",
-      "saptawara": "redite",
+      "saptawara": "sukra",
       "pancawara": "wage",
       "triwara": "kajeng",
       "sadwara": "urukung",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "sri",
-      "astawara": "ludra",
-      "sangawara": "dadi",
-      "dasawara": "raksasa",
-      "wuku": "wayang"
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "jaya",
+      "astawara": "kala",
+      "sangawara": "erangan",
+      "dasawara": "pandita",
+      "wuku": "uye"
     },
     {
       "date": "2026-09-05",
-      "saptawara": "soma",
-      "pancawara": "keliwon",
+      "saptawara": "saniscara",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
-      "ekawara": null,
-      "dwiwara": "menga",
-      "caturwara": "laba",
-      "astawara": "brahma",
-      "sangawara": "dangu",
-      "dasawara": "suka",
-      "wuku": "wayang"
+      "ekawara": "luang",
+      "dwiwara": "pepet",
+      "caturwara": "menala",
+      "astawara": "uma",
+      "sangawara": "urungan",
+      "dasawara": "raja",
+      "wuku": "uye"
     },
     {
       "date": "2026-09-06",
@@ -3928,7 +3928,7 @@
     {
       "date": "2026-09-10",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -3998,7 +3998,7 @@
     {
       "date": "2026-09-15",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -4068,7 +4068,7 @@
     {
       "date": "2026-09-20",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -4138,7 +4138,7 @@
     {
       "date": "2026-09-25",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": null,
@@ -4207,17 +4207,17 @@
     },
     {
       "date": "2026-09-30",
-      "saptawara": "redite",
-      "pancawara": "wage",
-      "triwara": "pasah",
-      "sadwara": "paniron",
+      "saptawara": "buda",
+      "pancawara": "kliwon",
+      "triwara": "beteng",
+      "sadwara": "was",
       "ekawara": "luang",
       "dwiwara": "pepet",
-      "caturwara": "laba",
-      "astawara": "indra",
-      "sangawara": "dangu",
-      "dasawara": "raksasa",
-      "wuku": "uye"
+      "caturwara": "sri",
+      "astawara": "sri",
+      "sangawara": "ogan",
+      "dasawara": "manuh",
+      "wuku": "ugu"
     },
     {
       "date": "2026-12-01",
@@ -4249,31 +4249,31 @@
     },
     {
       "date": "2026-12-03",
-      "saptawara": "redite",
-      "pancawara": "keliwon",
-      "triwara": "pasah",
-      "sadwara": "paniron",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "menala",
-      "astawara": "uma",
-      "sangawara": "urungan",
-      "dasawara": "duka",
-      "wuku": "sungsang"
+      "saptawara": "wraspati",
+      "pancawara": "wage",
+      "triwara": "kajeng",
+      "sadwara": "urukung",
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "sri",
+      "astawara": "sri",
+      "sangawara": "gigis",
+      "dasawara": "suka",
+      "wuku": "tolu"
     },
     {
       "date": "2026-12-04",
-      "saptawara": "soma",
-      "pancawara": "umanis",
-      "triwara": "beteng",
-      "sadwara": "was",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "sri",
-      "astawara": "sri",
-      "sangawara": "tulus",
-      "dasawara": "raksasa",
-      "wuku": "sungsang"
+      "saptawara": "sukra",
+      "pancawara": "kliwon",
+      "triwara": "pasah",
+      "sadwara": "paniron",
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "laba",
+      "astawara": "indra",
+      "sangawara": "nohan",
+      "dasawara": "sri",
+      "wuku": "tolu"
     },
     {
       "date": "2026-12-05",
@@ -4334,7 +4334,7 @@
     {
       "date": "2026-12-09",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": "luang",
@@ -4404,7 +4404,7 @@
     {
       "date": "2026-12-14",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": null,
@@ -4474,7 +4474,7 @@
     {
       "date": "2026-12-19",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -4544,7 +4544,7 @@
     {
       "date": "2026-12-24",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": null,
@@ -4613,17 +4613,17 @@
     },
     {
       "date": "2026-12-29",
-      "saptawara": "redite",
-      "pancawara": "keliwon",
+      "saptawara": "anggara",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
       "dwiwara": "pepet",
-      "caturwara": "sri",
-      "astawara": "ludra",
-      "sangawara": "tulus",
-      "dasawara": "duka",
-      "wuku": "tolu"
+      "caturwara": "jaya",
+      "astawara": "guru",
+      "sangawara": "jangur",
+      "dasawara": "pati",
+      "wuku": "julungwangi"
     },
     {
       "date": "2026-12-30",
@@ -4670,7 +4670,7 @@
     {
       "date": "2027-02-02",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -4740,7 +4740,7 @@
     {
       "date": "2027-02-07",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": "luang",
@@ -4810,7 +4810,7 @@
     {
       "date": "2027-02-12",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": null,
@@ -4880,7 +4880,7 @@
     {
       "date": "2027-02-17",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -4950,7 +4950,7 @@
     {
       "date": "2027-02-22",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": null,
@@ -5020,7 +5020,7 @@
     {
       "date": "2027-02-27",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -5076,7 +5076,7 @@
     {
       "date": "2027-05-03",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": null,
@@ -5146,7 +5146,7 @@
     {
       "date": "2027-05-08",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": "luang",
@@ -5169,7 +5169,7 @@
       "astawara": "yama",
       "sangawara": "urungan",
       "dasawara": "pandita",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2027-05-10",
@@ -5183,7 +5183,7 @@
       "astawara": "ludra",
       "sangawara": "tulus",
       "dasawara": "duka",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2027-05-11",
@@ -5197,7 +5197,7 @@
       "astawara": "brahma",
       "sangawara": "dadi",
       "dasawara": "pandita",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2027-05-12",
@@ -5211,12 +5211,12 @@
       "astawara": "kala",
       "sangawara": "dangu",
       "dasawara": "pati",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2027-05-13",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": null,
@@ -5225,7 +5225,7 @@
       "astawara": "uma",
       "sangawara": "jangur",
       "dasawara": "manusa",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2027-05-14",
@@ -5239,7 +5239,7 @@
       "astawara": "sri",
       "sangawara": "gigis",
       "dasawara": "pati",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2027-05-15",
@@ -5253,7 +5253,7 @@
       "astawara": "indra",
       "sangawara": "nohan",
       "dasawara": "dewa",
-      "wuku": "kulawu"
+      "wuku": "klawu"
     },
     {
       "date": "2027-05-16",
@@ -5286,7 +5286,7 @@
     {
       "date": "2027-05-18",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -5356,7 +5356,7 @@
     {
       "date": "2027-05-23",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": "luang",
@@ -5383,73 +5383,73 @@
     },
     {
       "date": "2027-05-25",
-      "saptawara": "redite",
+      "saptawara": "anggara",
       "pancawara": "paing",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": null,
       "dwiwara": "menga",
-      "caturwara": "laba",
-      "astawara": "brahma",
-      "sangawara": "jangur",
-      "dasawara": "sri",
-      "wuku": "ugu"
+      "caturwara": "menala",
+      "astawara": "yama",
+      "sangawara": "ogan",
+      "dasawara": "suka",
+      "wuku": "watugunung"
     },
     {
       "date": "2027-05-26",
-      "saptawara": "soma",
+      "saptawara": "buda",
       "pancawara": "pon",
       "triwara": "kajeng",
       "sadwara": "urukung",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "jaya",
-      "astawara": "kala",
-      "sangawara": "gigis",
-      "dasawara": "pati",
-      "wuku": "ugu"
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "sri",
+      "astawara": "ludra",
+      "sangawara": "erangan",
+      "dasawara": "sri",
+      "wuku": "watugunung"
     },
     {
       "date": "2027-05-27",
-      "saptawara": "anggara",
+      "saptawara": "wraspati",
       "pancawara": "wage",
       "triwara": "pasah",
       "sadwara": "paniron",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "menala",
-      "astawara": "uma",
-      "sangawara": "nohan",
-      "dasawara": "raja",
-      "wuku": "ugu"
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "laba",
+      "astawara": "brahma",
+      "sangawara": "urungan",
+      "dasawara": "suka",
+      "wuku": "watugunung"
     },
     {
       "date": "2027-05-28",
-      "saptawara": "buda",
-      "pancawara": "keliwon",
+      "saptawara": "sukra",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "sri",
-      "astawara": "sri",
-      "sangawara": "ogan",
-      "dasawara": "manuh",
-      "wuku": "ugu"
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "jaya",
+      "astawara": "kala",
+      "sangawara": "tulus",
+      "dasawara": "sri",
+      "wuku": "watugunung"
     },
     {
       "date": "2027-05-29",
-      "saptawara": "wraspati",
+      "saptawara": "saniscara",
       "pancawara": "umanis",
       "triwara": "kajeng",
       "sadwara": "maulu",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "laba",
-      "astawara": "indra",
-      "sangawara": "erangan",
-      "dasawara": "duka",
-      "wuku": "ugu"
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "menala",
+      "astawara": "uma",
+      "sangawara": "dadi",
+      "dasawara": "sri",
+      "wuku": "watugunung"
     },
     {
       "date": "2027-05-30",
@@ -5482,7 +5482,7 @@
     {
       "date": "2027-08-01",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -5537,22 +5537,22 @@
     },
     {
       "date": "2027-08-05",
-      "saptawara": "redite",
-      "pancawara": "keliwon",
-      "triwara": "kajeng",
-      "sadwara": "urukung",
-      "ekawara": "luang",
-      "dwiwara": "pepet",
-      "caturwara": "sri",
-      "astawara": "sri",
-      "sangawara": "erangan",
-      "dasawara": "duka",
-      "wuku": "pujut"
+      "saptawara": "wraspati",
+      "pancawara": "wage",
+      "triwara": "beteng",
+      "sadwara": "aryang",
+      "ekawara": null,
+      "dwiwara": "menga",
+      "caturwara": "menala",
+      "astawara": "yama",
+      "sangawara": "jangur",
+      "dasawara": "suka",
+      "wuku": "sungsang"
     },
     {
       "date": "2027-08-06",
       "saptawara": "sukra",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": null,
@@ -5622,7 +5622,7 @@
     {
       "date": "2027-08-11",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": "luang",
@@ -5692,7 +5692,7 @@
     {
       "date": "2027-08-16",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": null,
@@ -5762,7 +5762,7 @@
     {
       "date": "2027-08-21",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": "luang",
@@ -5832,7 +5832,7 @@
     {
       "date": "2027-08-26",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": null,
@@ -5902,7 +5902,7 @@
     {
       "date": "2027-08-31",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
@@ -5930,7 +5930,7 @@
     {
       "date": "2028-02-02",
       "saptawara": "buda",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "urukung",
       "ekawara": "luang",
@@ -5971,17 +5971,17 @@
     },
     {
       "date": "2028-02-05",
-      "saptawara": "redite",
-      "pancawara": "paing",
-      "triwara": "beteng",
-      "sadwara": "was",
+      "saptawara": "saniscara",
+      "pancawara": "pon",
+      "triwara": "kajeng",
+      "sadwara": "maulu",
       "ekawara": null,
       "dwiwara": "menga",
-      "caturwara": "jaya",
-      "astawara": "kala",
-      "sangawara": "ogan",
-      "dasawara": "sri",
-      "wuku": "dungulan"
+      "caturwara": "laba",
+      "astawara": "indra",
+      "sangawara": "gigis",
+      "dasawara": "manusa",
+      "wuku": "gumbreg"
     },
     {
       "date": "2028-02-06",
@@ -6000,7 +6000,7 @@
     {
       "date": "2028-02-07",
       "saptawara": "soma",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "aryang",
       "ekawara": null,
@@ -6070,7 +6070,7 @@
     {
       "date": "2028-02-12",
       "saptawara": "saniscara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "tungleh",
       "ekawara": "luang",
@@ -6140,7 +6140,7 @@
     {
       "date": "2028-02-17",
       "saptawara": "wraspati",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "kajeng",
       "sadwara": "maulu",
       "ekawara": null,
@@ -6210,7 +6210,7 @@
     {
       "date": "2028-02-22",
       "saptawara": "anggara",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "beteng",
       "sadwara": "was",
       "ekawara": "luang",
@@ -6280,7 +6280,7 @@
     {
       "date": "2028-02-27",
       "saptawara": "redite",
-      "pancawara": "keliwon",
+      "pancawara": "kliwon",
       "triwara": "pasah",
       "sadwara": "paniron",
       "ekawara": "luang",
