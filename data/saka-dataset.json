@@ -2,12 +2,12 @@
   "source": "https://kalenderbali.com",
   "reference": "I Wayan Nuarsa, Universitas Udayana",
   "note": "Saka dataset scraped from kalenderbali.com. Contains sasih name, phase (penanggal/pangelong), day number, purnama and tilem flags.",
-  "scrapedAt": "2026-10-20T13:29:37.044Z",
+  "scrapedAt": "2026-10-24T06:34:11.496Z",
   "totalEntries": 363,
   "entries": [
     {
       "date": "2025-02-01",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -15,7 +15,7 @@
     },
     {
       "date": "2025-02-02",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -23,7 +23,7 @@
     },
     {
       "date": "2025-02-03",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -31,7 +31,7 @@
     },
     {
       "date": "2025-02-04",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -39,7 +39,7 @@
     },
     {
       "date": "2025-02-05",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -47,7 +47,7 @@
     },
     {
       "date": "2025-02-06",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -55,7 +55,7 @@
     },
     {
       "date": "2025-02-07",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -63,7 +63,7 @@
     },
     {
       "date": "2025-02-08",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -71,7 +71,7 @@
     },
     {
       "date": "2025-02-09",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -79,7 +79,7 @@
     },
     {
       "date": "2025-02-10",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -87,7 +87,7 @@
     },
     {
       "date": "2025-02-11",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -95,7 +95,7 @@
     },
     {
       "date": "2025-02-12",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -103,7 +103,7 @@
     },
     {
       "date": "2025-02-13",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -111,7 +111,7 @@
     },
     {
       "date": "2025-02-14",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -119,7 +119,7 @@
     },
     {
       "date": "2025-02-15",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -127,7 +127,7 @@
     },
     {
       "date": "2025-02-16",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -135,7 +135,7 @@
     },
     {
       "date": "2025-02-17",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -143,7 +143,7 @@
     },
     {
       "date": "2025-02-18",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -151,7 +151,7 @@
     },
     {
       "date": "2025-02-19",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -159,7 +159,7 @@
     },
     {
       "date": "2025-02-20",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -167,7 +167,7 @@
     },
     {
       "date": "2025-02-21",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -175,7 +175,7 @@
     },
     {
       "date": "2025-02-22",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -183,7 +183,7 @@
     },
     {
       "date": "2025-02-23",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -191,7 +191,7 @@
     },
     {
       "date": "2025-02-24",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -199,7 +199,7 @@
     },
     {
       "date": "2025-02-25",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -207,7 +207,7 @@
     },
     {
       "date": "2025-02-26",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -215,7 +215,7 @@
     },
     {
       "date": "2025-02-27",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -223,7 +223,7 @@
     },
     {
       "date": "2025-02-28",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -255,7 +255,7 @@
     },
     {
       "date": "2025-04-04",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -263,7 +263,7 @@
     },
     {
       "date": "2025-04-05",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -447,7 +447,7 @@
     },
     {
       "date": "2025-04-28",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -455,7 +455,7 @@
     },
     {
       "date": "2025-04-29",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -727,7 +727,7 @@
     },
     {
       "date": "2025-10-02",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -735,7 +735,7 @@
     },
     {
       "date": "2025-10-03",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -887,7 +887,7 @@
     },
     {
       "date": "2025-10-22",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -895,7 +895,7 @@
     },
     {
       "date": "2025-10-23",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -903,7 +903,7 @@
     },
     {
       "date": "2025-10-24",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -911,7 +911,7 @@
     },
     {
       "date": "2025-10-25",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -919,7 +919,7 @@
     },
     {
       "date": "2025-10-26",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -927,7 +927,7 @@
     },
     {
       "date": "2025-10-27",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -951,7 +951,7 @@
     },
     {
       "date": "2025-10-30",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -959,7 +959,7 @@
     },
     {
       "date": "2025-10-31",
-      "sasih": "kelima",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -967,7 +967,7 @@
     },
     {
       "date": "2026-01-01",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -975,7 +975,7 @@
     },
     {
       "date": "2026-01-02",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -983,7 +983,7 @@
     },
     {
       "date": "2026-01-03",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -991,7 +991,7 @@
     },
     {
       "date": "2026-01-04",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -999,7 +999,7 @@
     },
     {
       "date": "2026-01-05",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -1007,7 +1007,7 @@
     },
     {
       "date": "2026-01-06",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -1015,7 +1015,7 @@
     },
     {
       "date": "2026-01-07",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -1023,7 +1023,7 @@
     },
     {
       "date": "2026-01-08",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -1031,7 +1031,7 @@
     },
     {
       "date": "2026-01-09",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -1039,7 +1039,7 @@
     },
     {
       "date": "2026-01-10",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -1047,7 +1047,7 @@
     },
     {
       "date": "2026-01-11",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -1055,7 +1055,7 @@
     },
     {
       "date": "2026-01-12",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -1063,7 +1063,7 @@
     },
     {
       "date": "2026-01-13",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -1071,7 +1071,7 @@
     },
     {
       "date": "2026-01-14",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -1079,7 +1079,7 @@
     },
     {
       "date": "2026-01-15",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -1087,7 +1087,7 @@
     },
     {
       "date": "2026-01-16",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -1095,7 +1095,7 @@
     },
     {
       "date": "2026-01-17",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -1103,7 +1103,7 @@
     },
     {
       "date": "2026-01-18",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -1111,7 +1111,7 @@
     },
     {
       "date": "2026-01-19",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -1119,7 +1119,7 @@
     },
     {
       "date": "2026-01-20",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -1127,7 +1127,7 @@
     },
     {
       "date": "2026-01-21",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -1135,7 +1135,7 @@
     },
     {
       "date": "2026-01-22",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -1143,7 +1143,7 @@
     },
     {
       "date": "2026-01-23",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -1151,7 +1151,7 @@
     },
     {
       "date": "2026-01-24",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -1159,7 +1159,7 @@
     },
     {
       "date": "2026-01-25",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -1167,7 +1167,7 @@
     },
     {
       "date": "2026-01-26",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -1175,7 +1175,7 @@
     },
     {
       "date": "2026-01-27",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -1183,7 +1183,7 @@
     },
     {
       "date": "2026-01-28",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -1191,7 +1191,7 @@
     },
     {
       "date": "2026-01-29",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -1199,7 +1199,7 @@
     },
     {
       "date": "2026-01-30",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -1207,7 +1207,7 @@
     },
     {
       "date": "2026-01-31",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -1215,7 +1215,7 @@
     },
     {
       "date": "2026-03-01",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -1223,7 +1223,7 @@
     },
     {
       "date": "2026-03-02",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -1231,7 +1231,7 @@
     },
     {
       "date": "2026-03-03",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -1239,7 +1239,7 @@
     },
     {
       "date": "2026-03-04",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -1255,7 +1255,7 @@
     },
     {
       "date": "2026-03-06",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -1263,7 +1263,7 @@
     },
     {
       "date": "2026-03-07",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -1271,7 +1271,7 @@
     },
     {
       "date": "2026-03-08",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -1279,7 +1279,7 @@
     },
     {
       "date": "2026-03-09",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -1287,7 +1287,7 @@
     },
     {
       "date": "2026-03-10",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -1295,7 +1295,7 @@
     },
     {
       "date": "2026-03-11",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -1303,7 +1303,7 @@
     },
     {
       "date": "2026-03-12",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -1311,7 +1311,7 @@
     },
     {
       "date": "2026-03-13",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -1319,7 +1319,7 @@
     },
     {
       "date": "2026-03-14",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -1327,7 +1327,7 @@
     },
     {
       "date": "2026-03-15",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -1335,7 +1335,7 @@
     },
     {
       "date": "2026-03-16",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -1343,7 +1343,7 @@
     },
     {
       "date": "2026-03-17",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -1351,7 +1351,7 @@
     },
     {
       "date": "2026-03-18",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -1943,7 +1943,7 @@
     },
     {
       "date": "2026-12-01",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -1951,7 +1951,7 @@
     },
     {
       "date": "2026-12-02",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -1959,7 +1959,7 @@
     },
     {
       "date": "2026-12-03",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -1967,7 +1967,7 @@
     },
     {
       "date": "2026-12-04",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -1975,7 +1975,7 @@
     },
     {
       "date": "2026-12-05",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -1983,7 +1983,7 @@
     },
     {
       "date": "2026-12-06",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -1991,7 +1991,7 @@
     },
     {
       "date": "2026-12-07",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -1999,7 +1999,7 @@
     },
     {
       "date": "2026-12-08",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -2007,7 +2007,7 @@
     },
     {
       "date": "2026-12-09",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -2015,7 +2015,7 @@
     },
     {
       "date": "2026-12-10",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -2023,7 +2023,7 @@
     },
     {
       "date": "2026-12-11",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -2031,7 +2031,7 @@
     },
     {
       "date": "2026-12-12",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -2039,7 +2039,7 @@
     },
     {
       "date": "2026-12-13",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -2047,7 +2047,7 @@
     },
     {
       "date": "2026-12-14",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2055,7 +2055,7 @@
     },
     {
       "date": "2026-12-15",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -2063,7 +2063,7 @@
     },
     {
       "date": "2026-12-16",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -2071,7 +2071,7 @@
     },
     {
       "date": "2026-12-17",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -2079,7 +2079,7 @@
     },
     {
       "date": "2026-12-18",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -2087,7 +2087,7 @@
     },
     {
       "date": "2026-12-19",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -2095,7 +2095,7 @@
     },
     {
       "date": "2026-12-20",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -2103,7 +2103,7 @@
     },
     {
       "date": "2026-12-21",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -2111,7 +2111,7 @@
     },
     {
       "date": "2026-12-22",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -2119,7 +2119,7 @@
     },
     {
       "date": "2026-12-23",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -2127,7 +2127,7 @@
     },
     {
       "date": "2026-12-24",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -2135,7 +2135,7 @@
     },
     {
       "date": "2026-12-25",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -2143,7 +2143,7 @@
     },
     {
       "date": "2026-12-26",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -2151,7 +2151,7 @@
     },
     {
       "date": "2026-12-27",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -2159,7 +2159,7 @@
     },
     {
       "date": "2026-12-28",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2167,7 +2167,7 @@
     },
     {
       "date": "2026-12-29",
-      "sasih": "kenam",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2175,7 +2175,7 @@
     },
     {
       "date": "2026-12-30",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -2183,7 +2183,7 @@
     },
     {
       "date": "2026-12-31",
-      "sasih": "kepitu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -2191,7 +2191,7 @@
     },
     {
       "date": "2027-02-01",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -2199,7 +2199,7 @@
     },
     {
       "date": "2027-02-02",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -2207,7 +2207,7 @@
     },
     {
       "date": "2027-02-03",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -2215,7 +2215,7 @@
     },
     {
       "date": "2027-02-04",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -2223,7 +2223,7 @@
     },
     {
       "date": "2027-02-05",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -2231,7 +2231,7 @@
     },
     {
       "date": "2027-02-06",
-      "sasih": "kewulu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -2239,7 +2239,7 @@
     },
     {
       "date": "2027-02-07",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -2247,7 +2247,7 @@
     },
     {
       "date": "2027-02-08",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -2255,7 +2255,7 @@
     },
     {
       "date": "2027-02-09",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -2263,7 +2263,7 @@
     },
     {
       "date": "2027-02-10",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -2271,7 +2271,7 @@
     },
     {
       "date": "2027-02-11",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2279,7 +2279,7 @@
     },
     {
       "date": "2027-02-12",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -2287,7 +2287,7 @@
     },
     {
       "date": "2027-02-13",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -2295,7 +2295,7 @@
     },
     {
       "date": "2027-02-14",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -2303,7 +2303,7 @@
     },
     {
       "date": "2027-02-15",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -2311,7 +2311,7 @@
     },
     {
       "date": "2027-02-16",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -2319,7 +2319,7 @@
     },
     {
       "date": "2027-02-17",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -2327,7 +2327,7 @@
     },
     {
       "date": "2027-02-18",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -2335,7 +2335,7 @@
     },
     {
       "date": "2027-02-19",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -2343,7 +2343,7 @@
     },
     {
       "date": "2027-02-20",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -2351,7 +2351,7 @@
     },
     {
       "date": "2027-02-21",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -2359,7 +2359,7 @@
     },
     {
       "date": "2027-02-22",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -2367,7 +2367,7 @@
     },
     {
       "date": "2027-02-23",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -2375,7 +2375,7 @@
     },
     {
       "date": "2027-02-24",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -2383,7 +2383,7 @@
     },
     {
       "date": "2027-02-25",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2391,7 +2391,7 @@
     },
     {
       "date": "2027-02-26",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -2399,7 +2399,7 @@
     },
     {
       "date": "2027-02-27",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -2407,7 +2407,7 @@
     },
     {
       "date": "2027-02-28",
-      "sasih": "kesanga",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -2415,7 +2415,7 @@
     },
     {
       "date": "2027-05-01",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -2423,7 +2423,7 @@
     },
     {
       "date": "2027-05-02",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -2431,7 +2431,7 @@
     },
     {
       "date": "2027-05-03",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -2439,7 +2439,7 @@
     },
     {
       "date": "2027-05-04",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -2447,7 +2447,7 @@
     },
     {
       "date": "2027-05-05",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -2455,7 +2455,7 @@
     },
     {
       "date": "2027-05-06",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -2463,7 +2463,7 @@
     },
     {
       "date": "2027-05-07",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -2471,7 +2471,7 @@
     },
     {
       "date": "2027-05-08",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -2479,7 +2479,7 @@
     },
     {
       "date": "2027-05-09",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -2487,7 +2487,7 @@
     },
     {
       "date": "2027-05-10",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2495,7 +2495,7 @@
     },
     {
       "date": "2027-05-11",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -2503,7 +2503,7 @@
     },
     {
       "date": "2027-05-12",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -2511,7 +2511,7 @@
     },
     {
       "date": "2027-05-13",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -2519,7 +2519,7 @@
     },
     {
       "date": "2027-05-14",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -2527,7 +2527,7 @@
     },
     {
       "date": "2027-05-15",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -2535,7 +2535,7 @@
     },
     {
       "date": "2027-05-16",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -2543,7 +2543,7 @@
     },
     {
       "date": "2027-05-17",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -2551,7 +2551,7 @@
     },
     {
       "date": "2027-05-18",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -2559,7 +2559,7 @@
     },
     {
       "date": "2027-05-19",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -2567,7 +2567,7 @@
     },
     {
       "date": "2027-05-20",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -2575,7 +2575,7 @@
     },
     {
       "date": "2027-05-21",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 1,
       "isPurnama": false,
@@ -2583,7 +2583,7 @@
     },
     {
       "date": "2027-05-22",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 2,
       "isPurnama": false,
@@ -2591,7 +2591,7 @@
     },
     {
       "date": "2027-05-23",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 3,
       "isPurnama": false,
@@ -2599,7 +2599,7 @@
     },
     {
       "date": "2027-05-24",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -2607,7 +2607,7 @@
     },
     {
       "date": "2027-05-25",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2615,7 +2615,7 @@
     },
     {
       "date": "2027-05-26",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -2623,7 +2623,7 @@
     },
     {
       "date": "2027-05-27",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -2631,7 +2631,7 @@
     },
     {
       "date": "2027-05-28",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -2639,7 +2639,7 @@
     },
     {
       "date": "2027-05-29",
-      "sasih": "jiyestha",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -2647,7 +2647,7 @@
     },
     {
       "date": "2027-05-30",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -2655,7 +2655,7 @@
     },
     {
       "date": "2027-05-31",
-      "sasih": "mala jiyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,

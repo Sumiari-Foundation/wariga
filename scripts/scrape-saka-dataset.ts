@@ -31,6 +31,28 @@ const MONTHS_TO_SCRAPE = [
     { year: 2027, month: 8 },
 ];
 
+// Normalize site spelling to match our implementation (ejaan lama)
+// Site uses modern spelling, code uses original spelling — normalize dataset to match code
+const SASIH_NORMALIZE: Record<string, string> = {
+    "kelima": "kalima",
+    "kenam": "kanam",
+    "kepitu": "kapitu",
+    "kewulu": "kaulu",
+    "kesanga": "kasanga",
+    "jiyestha": "jyestha",
+    "mala kelima": "mala kalima",
+    "mala kenam": "mala kanam",
+    "mala kepitu": "mala kapitu",
+    "mala kewulu": "mala kaulu",
+    "mala kesanga": "mala kasanga",
+    "mala jiyestha": "mala jyestha",
+};
+
+function normalizeSasih(name: string | null): string | null {
+    if (!name) return null;
+    return SASIH_NORMALIZE[name] ?? name;
+}
+
 // Purnama = penanggal 15, Tilem = pangelong 15
 // In data-detail: positive Penanggal/Pangelong = penanggal, negative = pangelong
 // Actually the site stores as a number (1-30):
@@ -94,7 +116,7 @@ async function scrapeMonth(year: number, month: number) {
 
             entries.push({
                 date: dateStr,
-                sasih: sasihRaw,
+                sasih: normalizeSasih(sasihRaw),
                 phase: phase.phase,
                 dayNumber: phase.dayNumber,
                 isPurnama: phase.isPurnama,
