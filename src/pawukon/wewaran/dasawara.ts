@@ -1,4 +1,4 @@
-import type { PawukonItemDetails } from "../types";
+import type { PawukonItemDetails } from "../types.js";
 
 const DASAWARA_MODULO = 10;
 

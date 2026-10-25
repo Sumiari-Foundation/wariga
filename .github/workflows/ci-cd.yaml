@@ -1,11 +1,9 @@
 name: CI/CD Pipeline
 
 on:
-  # Trigger CI on pull requests to develop branch
   pull_request:
     branches: [main]
 
-  # Trigger CD on push to main branch (after merge)
   push:
     branches: [main]
 
@@ -35,3 +33,6 @@ jobs:
       - name: Run tests
         run: bun test
         continue-on-error: false
+
+      - name: Verify the Node.js package entry
+        run: node --input-type=module -e "import { getWariga } from './dist/index.js'; const result = getWariga('2026-03-19'); if (result.pawukon.wuku?.name !== 'klawu' || result.saka.sasih.sasihName !== 'Kanam') process.exit(1);"

@@ -1,2 +1,2 @@
-export * from "./sasih-name";
-export * from "./sasih-phase";
+export * from "./sasih-name.js";
+export * from "./sasih-phase.js";

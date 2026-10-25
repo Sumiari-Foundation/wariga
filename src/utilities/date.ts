@@ -1,7 +1,7 @@
-import { KASA_NEW_MOON_ANCHOR_DATE } from "../consts/kasa-anchor-date";
-import { PAWUKON_ANCHOR_DATE } from "../consts/pawukon-anchor-date";
-import { MS_PER_DAY } from "../consts/time";
-import { DAYS_IN_YEAR_CYCLE } from "../consts/year-cycle";
+import { KASA_NEW_MOON_ANCHOR_DATE } from "../consts/kasa-anchor-date.js";
+import { PAWUKON_ANCHOR_DATE } from "../consts/pawukon-anchor-date.js";
+import { MS_PER_DAY } from "../consts/time.js";
+import { DAYS_IN_YEAR_CYCLE } from "../consts/year-cycle.js";
 
 export type Dateable = Date | string | number;
 

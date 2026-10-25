@@ -1,5 +1,5 @@
-import { getDaysSincePawukonAnchorDate } from "../../utilities/date";
-import type { PawukonItemDetails } from "../types";
+import { getDaysSincePawukonAnchorDate } from "../../utilities/date.js";
+import type { PawukonItemDetails } from "../types.js";
 
 const SADWARA_MODULO = 6;
 
