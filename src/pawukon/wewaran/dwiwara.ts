@@ -15,7 +15,8 @@ export const DWIWARA: readonly PawukonItemDetails[] = [
  * @returns The dwiwara.
  */
 export const getDwiwara = (uripSum: number) => {    
-    const dwiwaraIndex = uripSum % DWIWARA_MODULO;
+    // Use positive modulo to handle negative uripSum values safely
+    const dwiwaraIndex = ((uripSum % DWIWARA_MODULO) + DWIWARA_MODULO) % DWIWARA_MODULO;
     const dwiwara = DWIWARA[dwiwaraIndex];
 
     if (!dwiwara) throw new Error("Dwiwara not found");

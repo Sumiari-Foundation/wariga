@@ -16,7 +16,8 @@ export const DASAWARA: readonly PawukonItemDetails[] = [
 ] as const;
 
 export const getDasawara = (uripSum: number) => {
-  const dasawaraIndex = uripSum % DASAWARA_MODULO;
+  // Use positive modulo to handle negative uripSum values safely
+  const dasawaraIndex = ((uripSum % DASAWARA_MODULO) + DASAWARA_MODULO) % DASAWARA_MODULO;
   const dasawara = DASAWARA[dasawaraIndex];
 
   if (!dasawara) throw new Error("Dasawara not found");

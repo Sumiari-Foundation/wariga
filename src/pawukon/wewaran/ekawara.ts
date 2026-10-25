@@ -5,5 +5,6 @@ export const EKAWARA: readonly PawukonItemDetails[] = [
 ] as const;
 
 export const getEkawara = (uripSum: number) => {
-    return EKAWARA[uripSum % 2];
+    // Use positive modulo to handle negative uripSum values safely
+    return EKAWARA[((uripSum % 2) + 2) % 2];
 }
