@@ -1,7 +1,38 @@
 {
   "name": "wariga",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumiari-Foundation/wariga.git"
+  },
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "cheerio": "^1.2.0",
+    "typescript": "^5.9.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "bun": "./src/index.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/Sumiari-Foundation/wariga/issues"
+  },
   "description": "Balinese Wariga calendar calculations for Pawukon and Saka dates.",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!src/**/*.test.ts",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/Sumiari-Foundation/wariga#readme",
   "keywords": [
     "bali",
     "balinese",
@@ -13,35 +44,6 @@
     "sasih"
   ],
   "license": "GPL-3.0-only",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sumiari-Foundation/wariga.git"
-  },
-  "homepage": "https://github.com/Sumiari-Foundation/wariga#readme",
-  "bugs": {
-    "url": "https://github.com/Sumiari-Foundation/wariga/issues"
-  },
-  "type": "module",
-  "sideEffects": false,
-  "engines": {
-    "node": ">=18"
-  },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "bun": "./src/index.ts",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
-    }
-  },
-  "files": [
-    "dist",
-    "src",
-    "!src/**/*.test.ts",
-    "LICENSE"
-  ],
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "prepublishOnly": "bun run build",
@@ -49,11 +51,7 @@
     "test": "bun test",
     "example": "bun examples/today.ts"
   },
-  "dependencies": {
-    "cheerio": "^1.2.0"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "typescript": "^5.9.3"
-  }
+  "sideEffects": false,
+  "type": "module",
+  "types": "./dist/index.d.ts"
 }
