@@ -1,15 +1,59 @@
 {
   "name": "wariga",
-  "module": "index.ts",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "version": "0.1.0",
+  "description": "Balinese Wariga calendar calculations for Pawukon and Saka dates.",
+  "keywords": [
+    "bali",
+    "balinese",
+    "calendar",
+    "wariga",
+    "pawukon",
+    "saka",
+    "wuku",
+    "sasih"
+  ],
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumiari-Foundation/wariga.git"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "homepage": "https://github.com/Sumiari-Foundation/wariga#readme",
+  "bugs": {
+    "url": "https://github.com/Sumiari-Foundation/wariga/issues"
   },
-  "private": true,
   "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "bun": "./src/index.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "!src/**/*.test.ts",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "bun run build",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "example": "bun examples/today.ts"
+  },
   "dependencies": {
     "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
   }
 }

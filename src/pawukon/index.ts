@@ -1,2 +1,2 @@
-export * from './wuku';
-export * from './wewaran';
+export * from './wuku.js';
+export * from './wewaran/index.js';

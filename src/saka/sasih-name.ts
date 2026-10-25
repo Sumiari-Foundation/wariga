@@ -1,5 +1,5 @@
-import { DRIFT_PER_MONTH, LUNAR_MONTH } from "../consts/lunar-month";
-import { getDaysSinceKasaAnchorDate, type Dateable } from "../utilities/date";
+import { DRIFT_PER_MONTH, LUNAR_MONTH } from "../consts/lunar-month.js";
+import { getDaysSinceKasaAnchorDate, type Dateable } from "../utilities/date.js";
 
 const SASIH = [
     "Kasa", "Karo", "Katiga", "Kapat", "Kalima", "Kanam",
