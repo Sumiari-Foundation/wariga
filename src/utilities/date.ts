@@ -1,4 +1,3 @@
-import { KASA_NEW_MOON_ANCHOR_DATE } from "../consts/kasa-anchor-date.js";
 import { PAWUKON_ANCHOR_DATE } from "../consts/pawukon-anchor-date.js";
 import { MS_PER_DAY } from "../consts/time.js";
 import { DAYS_IN_YEAR_CYCLE } from "../consts/year-cycle.js";
@@ -28,8 +27,4 @@ const getDaysSinceAnchorDate = (date: Dateable, anchorDate: Date) => {
 
 export const getDaysSincePawukonAnchorDate = (date: Dateable) => {
     return getDaysSinceAnchorDate(date, PAWUKON_ANCHOR_DATE);
-}
-
-export const getDaysSinceKasaAnchorDate = (date: Dateable) => {
-    return getDaysSinceAnchorDate(date, KASA_NEW_MOON_ANCHOR_DATE);
 }

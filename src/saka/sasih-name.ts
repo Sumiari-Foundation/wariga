@@ -1,36 +1,64 @@
-import { DRIFT_PER_MONTH, LUNAR_MONTH } from "../consts/lunar-month.js";
-import { getDaysSinceKasaAnchorDate, type Dateable } from "../utilities/date.js";
+import { getSasihOrdinal } from "./sasih-phase.js";
+import type { Dateable } from "../utilities/date.js";
 
 const SASIH = [
     "Kasa", "Karo", "Katiga", "Kapat", "Kalima", "Kanam",
-    "Kapitu", "Kaulu", "Kasanga", "Kedasa", "Jyestha", "Sadha"
+    "Kapitu", "Kaulu", "Kasanga", "Kedasa", "Jyestha", "Sadha",
 ] as const;
 
-export const getSasihName = (date: Dateable) => {
-    const daysSinceAnchorDate = getDaysSinceKasaAnchorDate(date);
+/**
+ * Seven leap months in every 235 sasih. 235 lunar months is one Metonic cycle
+ * of 19 solar years. Ordinal 0 is the Kapitu containing 2024-01-09, and these
+ * residues are the leap ordinals inside that cycle.
+ */
+const LEAP_CYCLE = 235;
+const LEAP_RESIDUES = [6, 42, 80, 105, 141, 179, 215] as const;
+const KAPITU_INDEX = 6;
 
-    // We use elapsed Tithis logic here to be precise
-    const elapsedTithis = (daysSinceAnchorDate / (LUNAR_MONTH / 30));
-    const totalLunarMonthsPassed = Math.floor(elapsedTithis / 30);
-
-    const totalDriftDays = totalLunarMonthsPassed * DRIFT_PER_MONTH;
-    const totalLeapMonths = Math.floor(totalDriftDays / LUNAR_MONTH);
-
-    // We subtract the leap months to "freeze" the index progression
-    // Then we modulo 12 to loop back to Kasa (0) after Sadha (11)
-    let currentSasihIndex = (totalLunarMonthsPassed - totalLeapMonths) % 12;
-
-    // Optional: Determine if the current month IS a leap month
-    // It is a leap month if the drift just crossed the threshold
-    const isLeapMonth = (totalDriftDays % LUNAR_MONTH) < DRIFT_PER_MONTH;
-    let finalName = SASIH[currentSasihIndex];
-
-    if (isLeapMonth)
-        finalName = "Mala " + finalName; // 'Mala' denotes an impure/leap month
-
-    return {
-        monthNumber: currentSasihIndex + 1,
-        sasihName: finalName,
-        isLeapMonth: isLeapMonth
-    };
+function mod(value: number, period: number): number {
+    return ((value % period) + period) % period;
 }
+
+function isLeapOrdinal(ordinal: number): boolean {
+    return (LEAP_RESIDUES as readonly number[]).includes(mod(ordinal, LEAP_CYCLE));
+}
+
+function leapsInRange(start: number, end: number): number {
+    if (end < start) return 0;
+
+    let count = 0;
+    for (const residue of LEAP_RESIDUES) {
+        const earliest = Math.ceil((start - residue) / LEAP_CYCLE);
+        const latest = Math.floor((end - residue) / LEAP_CYCLE);
+        if (latest >= earliest) count += latest - earliest + 1;
+    }
+    return count;
+}
+
+/** 0-based sasih index. A leap ordinal repeats the previous sasih. */
+function monthIndex(ordinal: number): number {
+    const named = isLeapOrdinal(ordinal) ? ordinal - 1 : ordinal;
+
+    if (named >= 0) {
+        const advances = named - leapsInRange(1, named);
+        return mod(KAPITU_INDEX + advances, SASIH.length);
+    }
+
+    const span = -named;
+    const advances = span - leapsInRange(named, -1);
+    return mod(KAPITU_INDEX - advances, SASIH.length);
+}
+
+export const getSasihName = (date: Dateable) => {
+    const ordinal = getSasihOrdinal(date);
+    const index = monthIndex(ordinal);
+    const baseName = SASIH[index];
+    if (!baseName) throw new Error("Sasih index out of range");
+
+    const isLeapMonth = isLeapOrdinal(ordinal);
+    return {
+        monthNumber: index + 1,
+        sasihName: isLeapMonth ? `Mala ${baseName}` : baseName,
+        isLeapMonth,
+    };
+};

@@ -1,0 +1,2913 @@
+{
+  "source": "https://kalenderbali.com",
+  "reference": "I Wayan Nuarsa, Universitas Udayana",
+  "note": "Negative dataset — each entry contains WRONG values for the given date. Use with .not.toBe() assertions.",
+  "generatedAt": "2026-10-20T13:33:21.583Z",
+  "totalEntries": 363,
+  "entries": [
+    {
+      "date": "2025-02-01",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-04",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-05",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-06",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-07",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-08",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-09",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-10",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-11",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-12",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-13",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-14",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-15",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-16",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-17",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-18",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-19",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-20",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-21",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-22",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-23",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-24",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-25",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-26",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-27",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-02-28",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-01",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-02",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-03",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-04",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-05",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-06",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-07",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-08",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-09",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-10",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-11",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-12",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-13",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-14",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-15",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-16",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-17",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-18",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-19",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-20",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-21",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-22",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-23",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-24",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-25",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-26",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-27",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-28",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-29",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-04-30",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-01",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-02",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-03",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-04",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-05",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-06",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-07",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-08",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-09",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-10",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-11",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-12",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-13",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-14",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-15",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-16",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-17",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-18",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-19",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-20",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-21",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-22",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-23",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-24",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-25",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-26",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-27",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-28",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-29",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-30",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-07-31",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-01",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-04",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-05",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-06",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-07",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-08",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-09",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-10",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-11",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-12",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-13",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-14",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-15",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-16",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-17",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-18",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-19",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-20",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-21",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-22",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-23",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-24",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-25",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-26",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-27",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-28",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-29",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-30",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2025-10-31",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-01",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-04",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-05",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-06",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-07",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-08",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-09",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-10",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-11",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-12",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-13",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-14",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-15",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-16",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-17",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-18",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-19",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-20",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-21",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-22",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-23",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-24",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-25",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-26",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-27",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-28",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-29",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-30",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-01-31",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-01",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-04",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-05",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-06",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-07",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-08",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-09",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-10",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-11",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-12",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-13",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-14",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-15",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-16",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-17",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-18",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-19",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-20",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-21",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-22",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-23",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-24",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-25",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-26",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-27",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-28",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-29",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-30",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-03-31",
+      "sasih": "jiyestha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-01",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-04",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-05",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-06",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-07",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-08",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-09",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-10",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-11",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-12",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-13",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-14",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-15",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-16",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-17",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-18",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-19",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-20",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-21",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-22",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-23",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-24",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-25",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-26",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-27",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-28",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-29",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-06-30",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-01",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-04",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-05",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-06",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-07",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-08",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-09",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-10",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-11",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-12",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-13",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-14",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-15",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-16",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-17",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-18",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-19",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-20",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-21",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-22",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-23",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-24",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-25",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-26",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-27",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-28",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-29",
+      "sasih": "kalima",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-09-30",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-01",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-04",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-05",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-06",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-07",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-08",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-09",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-10",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-11",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-12",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-13",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-14",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-15",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-16",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-17",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-18",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-19",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-20",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-21",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-22",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-23",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-24",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-25",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-26",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-27",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-28",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-29",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-30",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2026-12-31",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-01",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-02",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-03",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-04",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-05",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-06",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-07",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-08",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-09",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-10",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-11",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-12",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-13",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-14",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-15",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-16",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-17",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-18",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-19",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-20",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-21",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-22",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-23",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-24",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-25",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-26",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-27",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-02-28",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-01",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-02",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-03",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-04",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-05",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-06",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-07",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-08",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-09",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-10",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-11",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-12",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-13",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-14",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-15",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-16",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-17",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-18",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-19",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-20",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-21",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-22",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-23",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-24",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-25",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-26",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-27",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-28",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-29",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-30",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-05-31",
+      "sasih": "sadha",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-01",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-02",
+      "sasih": "karo",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-03",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-04",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-05",
+      "sasih": "kasa",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-06",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-07",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-08",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-09",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-10",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 13,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-11",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-12",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-13",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-14",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-15",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-16",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-17",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-18",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 6,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-19",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 7,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-20",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 8,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-21",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 9,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-22",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 10,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-23",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 11,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-24",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 12,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-25",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 14,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-26",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 15,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-27",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 1,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-28",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 2,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-29",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 3,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-30",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 4,
+      "isPurnama": true,
+      "isTilem": true
+    },
+    {
+      "date": "2027-08-31",
+      "sasih": "katiga",
+      "phase": "Pangelong (Waning)",
+      "dayNumber": 5,
+      "isPurnama": false,
+      "isTilem": true
+    }
+  ]
+}

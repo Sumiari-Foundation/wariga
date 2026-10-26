@@ -23,8 +23,8 @@ const wariga = getWariga("2026-03-19");
 
 wariga.pawukon.wuku;       // { name: "klawu", urip, direction, deity }
 wariga.pawukon.pancawara;  // kliwon
-wariga.saka.sasih;         // { monthNumber: 6, sasihName: "Kanam", isLeapMonth: false }
-wariga.saka.phase;         // { phase: "Pangelong (Waning)", dayNumber: 14, ... }
+wariga.saka.sasih;         // { monthNumber: 10, sasihName: "Kedasa", isLeapMonth: false }
+wariga.saka.phase;         // { phase: "Penanggal (Waxing)", dayNumber: 1, ... }
 ```
 
 `getWariga` accepts a `Date`, an ISO date string, or a timestamp. A date-only string such as `"2026-03-19"` is parsed as UTC midnight. Invalid dates throw.
