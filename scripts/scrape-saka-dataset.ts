@@ -39,6 +39,7 @@ const SASIH_NORMALIZE: Record<string, string> = {
     "kepitu": "kapitu",
     "kewulu": "kaulu",
     "kesanga": "kasanga",
+    "ketiga": "katiga",
     "jiyestha": "jyestha",
     "mala kelima": "mala kalima",
     "mala kenam": "mala kanam",
@@ -98,8 +99,19 @@ async function scrapeMonth(year: number, month: number) {
 
         try {
             const detail = JSON.parse(detailStr);
-            const day = parseInt(tgl.split(" ")[0]);
+            const parts = tgl.split(" ");
+            const day = parseInt(parts[0]);
             if (isNaN(day)) return;
+
+            // Parse month/year from data-tgl to avoid misassigning adjacent month dates
+            const MONTH_MAP: Record<string, number> = {
+                "Januari": 1, "Februari": 2, "Maret": 3, "April": 4,
+                "Mei": 5, "Juni": 6, "Juli": 7, "Agustus": 8,
+                "September": 9, "Oktober": 10, "November": 11, "Desember": 12
+            };
+            const tglMonth = MONTH_MAP[parts[1]];
+            const tglYear = parseInt(parts[2]);
+            if (!tglMonth || isNaN(tglYear) || tglMonth !== month || tglYear !== year) return;
 
             const dateStr = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
             const dateCheck = new Date(dateStr);

@@ -2,7 +2,7 @@
   "source": "https://kalenderbali.com",
   "reference": "I Wayan Nuarsa, Universitas Udayana",
   "note": "Saka dataset scraped from kalenderbali.com. Contains sasih name, phase (penanggal/pangelong), day number, purnama and tilem flags.",
-  "scrapedAt": "2026-10-24T06:34:11.496Z",
+  "scrapedAt": "2026-10-26T04:24:11.705Z",
   "totalEntries": 363,
   "entries": [
     {
@@ -207,26 +207,26 @@
     },
     {
       "date": "2025-02-26",
-      "sasih": "kapitu",
-      "phase": "Penanggal (Waxing)",
-      "dayNumber": 13,
-      "isPurnama": false,
-      "isTilem": false
-    },
-    {
-      "date": "2025-02-27",
-      "sasih": "kapitu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
       "isTilem": false
     },
     {
-      "date": "2025-02-28",
-      "sasih": "kapitu",
+      "date": "2025-02-27",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
+      "isTilem": false
+    },
+    {
+      "date": "2025-02-28",
+      "sasih": "kasanga",
+      "phase": "Penanggal (Waxing)",
+      "dayNumber": 1,
+      "isPurnama": false,
       "isTilem": false
     },
     {
@@ -255,7 +255,7 @@
     },
     {
       "date": "2025-04-04",
-      "sasih": "jyestha",
+      "sasih": "kedasa",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -263,7 +263,7 @@
     },
     {
       "date": "2025-04-05",
-      "sasih": "jyestha",
+      "sasih": "kedasa",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -463,9 +463,9 @@
     },
     {
       "date": "2025-04-30",
-      "sasih": "kedasa",
+      "sasih": "jyestha",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 2,
+      "dayNumber": 3,
       "isPurnama": false,
       "isTilem": false
     },
@@ -487,17 +487,17 @@
     },
     {
       "date": "2025-07-03",
-      "sasih": "karo",
+      "sasih": "kasa",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 10,
+      "dayNumber": 8,
       "isPurnama": false,
       "isTilem": false
     },
     {
       "date": "2025-07-04",
-      "sasih": "karo",
+      "sasih": "kasa",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 11,
+      "dayNumber": 9,
       "isPurnama": false,
       "isTilem": false
     },
@@ -695,7 +695,7 @@
     },
     {
       "date": "2025-07-29",
-      "sasih": "kasa",
+      "sasih": "karo",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 4,
       "isPurnama": false,
@@ -727,17 +727,17 @@
     },
     {
       "date": "2025-10-02",
-      "sasih": "kalima",
+      "sasih": "kapat",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 12,
+      "dayNumber": 11,
       "isPurnama": false,
       "isTilem": false
     },
     {
       "date": "2025-10-03",
-      "sasih": "kalima",
+      "sasih": "kapat",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 13,
+      "dayNumber": 12,
       "isPurnama": false,
       "isTilem": false
     },
@@ -935,17 +935,17 @@
     },
     {
       "date": "2025-10-28",
-      "sasih": "kapat",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 6,
+      "dayNumber": 7,
       "isPurnama": false,
       "isTilem": false
     },
     {
       "date": "2025-10-29",
-      "sasih": "kapat",
+      "sasih": "kalima",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 7,
+      "dayNumber": 8,
       "isPurnama": false,
       "isTilem": false
     },
@@ -967,18 +967,18 @@
     },
     {
       "date": "2026-01-01",
-      "sasih": "kaulu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 14,
+      "dayNumber": 13,
       "isPurnama": false,
       "isTilem": false
     },
     {
       "date": "2026-01-02",
-      "sasih": "kaulu",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 15,
-      "isPurnama": true,
+      "dayNumber": 14,
+      "isPurnama": false,
       "isTilem": false
     },
     {
@@ -1183,25 +1183,25 @@
     },
     {
       "date": "2026-01-28",
-      "sasih": "kapitu",
-      "phase": "Penanggal (Waxing)",
-      "dayNumber": 9,
-      "isPurnama": false,
-      "isTilem": false
-    },
-    {
-      "date": "2026-01-29",
-      "sasih": "kapitu",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
       "isTilem": false
     },
     {
-      "date": "2026-01-30",
-      "sasih": "kapitu",
+      "date": "2026-01-29",
+      "sasih": "kaulu",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
+      "isPurnama": false,
+      "isTilem": false
+    },
+    {
+      "date": "2026-01-30",
+      "sasih": "kaulu",
+      "phase": "Penanggal (Waxing)",
+      "dayNumber": 12,
       "isPurnama": false,
       "isTilem": false
     },
@@ -1247,9 +1247,9 @@
     },
     {
       "date": "2026-03-05",
-      "sasih": "kedasa",
+      "sasih": "kasanga",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 3,
+      "dayNumber": 2,
       "isPurnama": false,
       "isTilem": false
     },
@@ -1495,17 +1495,17 @@
     },
     {
       "date": "2026-06-05",
-      "sasih": "kasa",
+      "sasih": "sadha",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 6,
+      "dayNumber": 5,
       "isPurnama": false,
       "isTilem": false
     },
     {
       "date": "2026-06-06",
-      "sasih": "kasa",
+      "sasih": "sadha",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 7,
+      "dayNumber": 6,
       "isPurnama": false,
       "isTilem": false
     },
@@ -1703,7 +1703,7 @@
     },
     {
       "date": "2026-09-01",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -1711,7 +1711,7 @@
     },
     {
       "date": "2026-09-02",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -1719,7 +1719,7 @@
     },
     {
       "date": "2026-09-03",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -1727,7 +1727,7 @@
     },
     {
       "date": "2026-09-04",
-      "sasih": "kapat",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -1735,7 +1735,7 @@
     },
     {
       "date": "2026-09-05",
-      "sasih": "kapat",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -1743,7 +1743,7 @@
     },
     {
       "date": "2026-09-06",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 10,
       "isPurnama": false,
@@ -1751,7 +1751,7 @@
     },
     {
       "date": "2026-09-07",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 11,
       "isPurnama": false,
@@ -1759,7 +1759,7 @@
     },
     {
       "date": "2026-09-08",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 12,
       "isPurnama": false,
@@ -1767,7 +1767,7 @@
     },
     {
       "date": "2026-09-09",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 13,
       "isPurnama": false,
@@ -1775,7 +1775,7 @@
     },
     {
       "date": "2026-09-10",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 14,
       "isPurnama": false,
@@ -1783,7 +1783,7 @@
     },
     {
       "date": "2026-09-11",
-      "sasih": "ketiga",
+      "sasih": "katiga",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 15,
       "isPurnama": true,
@@ -1935,9 +1935,9 @@
     },
     {
       "date": "2026-09-30",
-      "sasih": "ketiga",
+      "sasih": "kapat",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 3,
+      "dayNumber": 4,
       "isPurnama": false,
       "isTilem": false
     },
@@ -1959,17 +1959,17 @@
     },
     {
       "date": "2026-12-03",
-      "sasih": "kapitu",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 11,
+      "dayNumber": 9,
       "isPurnama": false,
       "isTilem": false
     },
     {
       "date": "2026-12-04",
-      "sasih": "kapitu",
+      "sasih": "kanam",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 12,
+      "dayNumber": 10,
       "isPurnama": false,
       "isTilem": false
     },
@@ -2167,9 +2167,9 @@
     },
     {
       "date": "2026-12-29",
-      "sasih": "kanam",
+      "sasih": "kapitu",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 5,
+      "dayNumber": 6,
       "isPurnama": false,
       "isTilem": false
     },
@@ -2607,7 +2607,7 @@
     },
     {
       "date": "2027-05-25",
-      "sasih": "jyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 5,
       "isPurnama": false,
@@ -2615,7 +2615,7 @@
     },
     {
       "date": "2027-05-26",
-      "sasih": "jyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 6,
       "isPurnama": false,
@@ -2623,7 +2623,7 @@
     },
     {
       "date": "2027-05-27",
-      "sasih": "jyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 7,
       "isPurnama": false,
@@ -2631,7 +2631,7 @@
     },
     {
       "date": "2027-05-28",
-      "sasih": "jyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 8,
       "isPurnama": false,
@@ -2639,7 +2639,7 @@
     },
     {
       "date": "2027-05-29",
-      "sasih": "jyestha",
+      "sasih": "mala jyestha",
       "phase": "Penanggal (Waxing)",
       "dayNumber": 9,
       "isPurnama": false,
@@ -2695,9 +2695,9 @@
     },
     {
       "date": "2027-08-05",
-      "sasih": "ketiga",
+      "sasih": "karo",
       "phase": "Penanggal (Waxing)",
-      "dayNumber": 5,
+      "dayNumber": 3,
       "isPurnama": false,
       "isTilem": false
     },
