@@ -1,7 +1,7 @@
 import { describe, it, expect } from "bun:test";
-import { getSasihName } from "./sasih-name";
-import dataset from "../../data/saka-dataset.json";
-import negativeDataset from "../../data/saka-dataset-negative.json";
+import { getSasihName } from "./sasih-name.js";
+import dataset from "../../data/saka-dataset.json" with { type: "json" };
+import negativeDataset from "../../data/saka-dataset-negative.json" with { type: "json" };
 
 describe("getSasihName", () => {
 
@@ -23,6 +23,17 @@ describe("getSasihName", () => {
     }
 
     // --- Unique edge cases ---
+
+    it("names leap months outside 2024–2027 from the 19-year cycle", () => {
+        expect(getSasihName(new Date("2011-06-15")).sasihName).toBe("Mala Sadha");
+        expect(getSasihName(new Date("2019-06-15")).sasihName).toBe("Mala Sadha");
+        expect(getSasihName(new Date("2022-05-15")).sasihName).toBe("Mala Jyestha");
+        expect(getSasihName(new Date("2030-06-15")).sasihName).toBe("Mala Sadha");
+        expect(getSasihName(new Date("2035-05-20")).sasihName).toBe("Mala Jyestha");
+        expect(getSasihName(new Date("2023-12-20")).sasihName).toBe("Kapitu");
+        expect(getSasihName(new Date("2019-06-15")).isLeapMonth).toBe(true);
+        expect(getSasihName(new Date("2023-12-20")).isLeapMonth).toBe(false);
+    });
 
     it("returns the correct shape", () => {
         const result = getSasihName(new Date("2025-02-27"));

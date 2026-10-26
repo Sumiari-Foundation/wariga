@@ -19,13 +19,13 @@ test("getWariga returns pawukon and saka for a known date", () => {
     expect(wariga.pawukon.wuku?.name).toBe("klawu");
     expect(wariga.pawukon.uripSum).toBe(wariga.pawukon.saptawara.urip + wariga.pawukon.pancawara.urip);
     expect(wariga.saka.sasih).toEqual({
-        monthNumber: 6,
-        sasihName: "Kanam",
+        monthNumber: 10,
+        sasihName: "Kedasa",
         isLeapMonth: false,
     });
     expect(wariga.saka.phase).toEqual({
-        phase: "Pangelong (Waning)",
-        dayNumber: 14,
+        phase: "Penanggal (Waxing)",
+        dayNumber: 1,
         isPurnama: false,
         isTilem: false,
     });
