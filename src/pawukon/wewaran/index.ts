@@ -8,3 +8,4 @@ export * from './saptawara.js';
 export * from './astawara.js';
 export * from './sangawara.js';
 export * from './dasawara.js';
+export * from './ingkel.js';
